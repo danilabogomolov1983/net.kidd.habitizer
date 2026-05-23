@@ -1,0 +1,20 @@
+name: wst-tools-posibridge
+
+services:
+  syncdaemon:
+    image: "${SYNCDAEMON_IMAGE_TAG:-wst-tools-posibridge-syncdaemon:latest}"
+    env_file:
+      - .env
+    networks:
+      - posibridge-network
+    volumes:
+      - wst-tools-posibridge-syncdaemon-logs:/app/publish/logs
+    restart: unless-stopped
+
+networks:
+  posibridge-network:
+    name: posibridge-network
+
+volumes:
+  wst-tools-posibridge-syncdaemon-logs:
+    name: wst-tools-posibridge-syncdaemon-logs

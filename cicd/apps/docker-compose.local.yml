@@ -1,0 +1,27 @@
+name: wst-tools-posibridge
+
+services:
+  syncdaemon:
+    build:
+      context: ../..
+      dockerfile: cicd/apps/Dockerfile.syncdaemon
+    image: wst-tools-posibridge-syncdaemon:latest
+    env_file:
+      - .env.local
+    networks:
+      - posibridge-network
+      - mssql-network
+    volumes:
+      - wst-tools-posibridge-syncdaemon-logs:/app/publish/logs
+    restart: unless-stopped
+
+networks:
+  posibridge-network:
+    name: posibridge-network
+  mssql-network:
+    name: mssql-network
+    external: true
+
+volumes:
+  wst-tools-posibridge-syncdaemon-logs:
+    name: wst-tools-posibridge-syncdaemon-logs

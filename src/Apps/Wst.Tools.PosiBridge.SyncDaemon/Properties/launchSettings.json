@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Wst.Tools.PosiBridge.SyncDaemon": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Local"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Bogus"/>
+        <PackageReference Include="coverlet.collector"/>
+        <PackageReference Include="FakeItEasy" />
+        <PackageReference Include="LanguageExt.Core"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions"/>
+        <PackageReference Include="Microsoft.Extensions.Options"/>
+        <PackageReference Include="Microsoft.NET.Test.Sdk"/>
+        <PackageReference Include="Testcontainers.MsSql"/>
+        <PackageReference Include="Selenium.WebDriver"/>
+        <PackageReference Include="Serilog"/>
+        <PackageReference Include="Serilog.Extensions.Logging"/>
+        <PackageReference Include="Serilog.Settings.Configuration"/>
+        <PackageReference Include="xunit.runner.visualstudio"/>
+        <PackageReference Include="xunit.v3"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Using Include="Xunit"/>
+        <Using Include="Wst.Tools.PosiBridge.TestCompanion.Support.Domain" Static="True" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\src\Application\Wst.Tools.PosiBridge.Application.csproj" />
+        <ProjectReference Include="..\..\src\Domain\Wst.Tools.PosiBridge.Domain.csproj" />
+        <ProjectReference Include="..\..\src\Persistence\Wst.Tools.PosiBridge.Persistence.csproj" />
+    </ItemGroup>
+</Project>
