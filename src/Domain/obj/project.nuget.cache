@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZaOJFKd0Hg8=",
+  "success": true,
+  "projectFilePath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Domain/Wst.Tools.PosiBridge.Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/danila/.nuget/packages/fluentvalidation/12.1.1/fluentvalidation.12.1.1.nupkg.sha512",
+    "/home/danila/.nuget/packages/languageext.core/4.4.8/languageext.core.4.4.8.nupkg.sha512",
+    "/home/danila/.nuget/packages/languageext.transformers/4.4.8/languageext.transformers.4.4.8.nupkg.sha512",
+    "/home/danila/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
+    "/home/danila/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.6/microsoft.extensions.dependencyinjection.abstractions.10.0.6.nupkg.sha512",
+    "/home/danila/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.6/microsoft.extensions.logging.abstractions.10.0.6.nupkg.sha512",
+    "/home/danila/.nuget/packages/microsoft.extensions.options/10.0.6/microsoft.extensions.options.10.0.6.nupkg.sha512",
+    "/home/danila/.nuget/packages/microsoft.extensions.primitives/10.0.6/microsoft.extensions.primitives.10.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

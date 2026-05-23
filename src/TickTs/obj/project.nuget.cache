@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "nEHPQZ4t6FM=",
+  "success": true,
+  "projectFilePath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/TickTs/Wst.Tools.PosiBridge.TickTs.csproj",
+  "expectedPackageFiles": [
+    "/home/danila/.nuget/packages/fluentvalidation/12.1.1/fluentvalidation.12.1.1.nupkg.sha512",
+    "/home/danila/.nuget/packages/fluentvalidation.dependencyinjectionextensions/12.1.1/fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "/home/danila/.nuget/packages/languageext.core/4.4.8/languageext.core.4.4.8.nupkg.sha512",
+    "/home/danila/.nuget/packages/languageext.transformers/4.4.8/languageext.transformers.4.4.8.nupkg.sha512",
+    "/home/danila/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
+    "/home/danila/.nuget/packages/microsoft.extensions.configuration/10.0.6/microsoft.extensions.configuration.10.0.6.nupkg.sha512",
+    "/home/danila/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.6/microsoft.extensions.configuration.abstractions.10.0.6.nupkg.sha512",
+    "/home/danila/.nuget/packages/microsoft.extensions.configuration.binder/10.0.6/microsoft.extensions.configuration.binder.10.0.6.nupkg.sha512",
+    "/home/danila/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.6/microsoft.extensions.dependencyinjection.10.0.6.nupkg.sha512",
+    "/home/danila/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.6/microsoft.extensions.dependencyinjection.abstractions.10.0.6.nupkg.sha512",
+    "/home/danila/.nuget/packages/microsoft.extensions.diagnostics/10.0.6/microsoft.extensions.diagnostics.10.0.6.nupkg.sha512",
+    "/home/danila/.nuget/packages/microsoft.extensions.diagnostics.abstractions/10.0.6/microsoft.extensions.diagnostics.abstractions.10.0.6.nupkg.sha512",
+    "/home/danila/.nuget/packages/microsoft.extensions.http/10.0.6/microsoft.extensions.http.10.0.6.nupkg.sha512",
+    "/home/danila/.nuget/packages/microsoft.extensions.logging/10.0.6/microsoft.extensions.logging.10.0.6.nupkg.sha512",
+    "/home/danila/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.6/microsoft.extensions.logging.abstractions.10.0.6.nupkg.sha512",
+    "/home/danila/.nuget/packages/microsoft.extensions.options/10.0.6/microsoft.extensions.options.10.0.6.nupkg.sha512",
+    "/home/danila/.nuget/packages/microsoft.extensions.options.configurationextensions/10.0.6/microsoft.extensions.options.configurationextensions.10.0.6.nupkg.sha512",
+    "/home/danila/.nuget/packages/microsoft.extensions.primitives/10.0.6/microsoft.extensions.primitives.10.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}
