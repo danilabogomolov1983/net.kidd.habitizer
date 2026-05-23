@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "95egj0ue87Y=",
+  "dgSpecHash": "v/a8GgUGsF4=",
   "success": true,
-  "projectFilePath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Application/Wst.Tools.PosiBridge.Application.csproj",
+  "projectFilePath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Application/Net.Kidd.Habitizer.Application.csproj",
   "expectedPackageFiles": [
     "/home/danila/.nuget/packages/fluentvalidation/12.1.1/fluentvalidation.12.1.1.nupkg.sha512",
     "/home/danila/.nuget/packages/languageext.core/4.4.8/languageext.core.4.4.8.nupkg.sha512",

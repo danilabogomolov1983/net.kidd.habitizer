@@ -1,6 +1,6 @@
-using Wst.Tools.PosiBridge.TestCompanion;
+using Net.Kidd.Habitizer.TestCompanion;
 
-namespace Wst.Tools.PosiBridge.Persistence.IntegrationTest;
+namespace Net.Kidd.Habitizer.Persistence.IntegrationTest;
 
 [CollectionDefinition("IntegrationTests")]
 public sealed class TestsCollectionDefinition : ICollectionFixture<IntegrationTestsFixture>;

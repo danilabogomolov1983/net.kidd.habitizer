@@ -1,4 +1,4 @@
-namespace Wst.Tools.PosiBridge.Domain.Instrument;
+namespace Net.Kidd.Habitizer.Domain.Instrument;
 
 public record InstrumentId(Guid Value)
 {

@@ -1,11 +1,11 @@
-using Wst.Tools.PosiBridge.Persistence.Account;
-using Wst.Tools.PosiBridge.TestCompanion;
-using DeleteAccount = Wst.Tools.PosiBridge.Application.Account.Bulk.Delete;
-using AccountGetByIds = Wst.Tools.PosiBridge.Application.Account.Bulk.GetByIds;
-using SourceAddMissing = Wst.Tools.PosiBridge.Application.Source.Bulk.AddMissing;
-using AccountAddMissing = Wst.Tools.PosiBridge.Application.Account.Bulk.AddMissing;
+using Net.Kidd.Habitizer.Persistence.Account;
+using Net.Kidd.Habitizer.TestCompanion;
+using DeleteAccount = Net.Kidd.Habitizer.Application.Account.Bulk.Delete;
+using AccountGetByIds = Net.Kidd.Habitizer.Application.Account.Bulk.GetByIds;
+using SourceAddMissing = Net.Kidd.Habitizer.Application.Source.Bulk.AddMissing;
+using AccountAddMissing = Net.Kidd.Habitizer.Application.Account.Bulk.AddMissing;
 
-namespace Wst.Tools.PosiBridge.Application.Test.Account.Bulk.Delete;
+namespace Net.Kidd.Habitizer.Application.Test.Account.Bulk.Delete;
 
 public class ServiceTests(InMemoryFixture fixture) : IClassFixture<InMemoryFixture>
 {

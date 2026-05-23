@@ -1,9 +1,9 @@
 using LanguageExt.UnsafeValueAccess;
-using Wst.Tools.PosiBridge.TestCompanion;
-using PostAccount = Wst.Tools.PosiBridge.Application.Account.Post;
-using GetAccount = Wst.Tools.PosiBridge.Application.Account.Get;
+using Net.Kidd.Habitizer.TestCompanion;
+using PostAccount = Net.Kidd.Habitizer.Application.Account.Post;
+using GetAccount = Net.Kidd.Habitizer.Application.Account.Get;
 
-namespace Wst.Tools.PosiBridge.Application.IntegrationTest.Account.Get;
+namespace Net.Kidd.Habitizer.Application.IntegrationTest.Account.Get;
 
 [Collection("IntegrationTests")]
 public class GetAccountTests(IntegrationTestsFixture fixture)

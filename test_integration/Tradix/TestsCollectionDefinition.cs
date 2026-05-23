@@ -1,4 +1,4 @@
-namespace Wst.Tools.PosiBridge.Tradix.IntegrationTest;
+namespace Net.Kidd.Habitizer.Tradix.IntegrationTest;
 
 [CollectionDefinition("IntegrationTests")]
 public sealed class TestsCollectionDefinition : ICollectionFixture<TradixFixture>;

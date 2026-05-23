@@ -1,10 +1,10 @@
 using LanguageExt.UnsafeValueAccess;
-using Wst.Tools.PosiBridge.Persistence.Position;
-using Wst.Tools.PosiBridge.TestCompanion;
-using PostPosition = Wst.Tools.PosiBridge.Application.Position.Post;
-using GetPosition = Wst.Tools.PosiBridge.Application.Position.Get;
+using Net.Kidd.Habitizer.Persistence.Position;
+using Net.Kidd.Habitizer.TestCompanion;
+using PostPosition = Net.Kidd.Habitizer.Application.Position.Post;
+using GetPosition = Net.Kidd.Habitizer.Application.Position.Get;
 
-namespace Wst.Tools.PosiBridge.Application.Test.Position.Get;
+namespace Net.Kidd.Habitizer.Application.Test.Position.Get;
 
 public class GetPositionTests(InMemoryFixture fixture) : IClassFixture<InMemoryFixture>
 {

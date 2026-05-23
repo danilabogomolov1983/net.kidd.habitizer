@@ -1,8 +1,8 @@
 using LanguageExt;
-using Wst.Tools.PosiBridge.Domain.Snapshot;
-using Wst.Tools.PosiBridge.Shared.Kernel.Functional;
+using Net.Kidd.Habitizer.Domain.Snapshot;
+using Net.Kidd.Habitizer.Shared.Kernel.Functional;
 
-namespace Wst.Tools.PosiBridge.Application.Snapshot.Sync;
+namespace Net.Kidd.Habitizer.Application.Snapshot.Sync;
 
 public class Service(
     PortfolioSnapshotProviderFactory portfolioSnapshotProviderFactory,

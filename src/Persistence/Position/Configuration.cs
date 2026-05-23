@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Wst.Tools.PosiBridge.Persistence.Position;
+namespace Net.Kidd.Habitizer.Persistence.Position;
 
 public class Configuration : IEntityTypeConfiguration<PositionDbo>
 {

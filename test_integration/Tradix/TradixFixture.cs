@@ -4,12 +4,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Serilog;
 using Testcontainers.MsSql;
-using Wst.Tools.PosiBridge.Application.Snapshot;
-using Wst.Tools.PosiBridge.Domain.Snapshot;
-using Wst.Tools.PosiBridge.Tradix.Configuration;
-using Wst.Tools.PosiBridge.Tradix.Snapshot;
+using Net.Kidd.Habitizer.Application.Snapshot;
+using Net.Kidd.Habitizer.Domain.Snapshot;
+using Net.Kidd.Habitizer.Tradix.Configuration;
+using Net.Kidd.Habitizer.Tradix.Snapshot;
 
-namespace Wst.Tools.PosiBridge.Tradix.IntegrationTest;
+namespace Net.Kidd.Habitizer.Tradix.IntegrationTest;
 
 public sealed class TradixFixture : IAsyncLifetime
 {

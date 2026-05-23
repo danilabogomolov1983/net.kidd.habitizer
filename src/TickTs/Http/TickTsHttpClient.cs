@@ -3,7 +3,7 @@ using LanguageExt.Common;
 using System.Net.Http.Json;
 using System.Text.Json;
 
-namespace Wst.Tools.PosiBridge.TickTs.Http;
+namespace Net.Kidd.Habitizer.TickTs.Http;
 
 public class TickTsHttpClient(HttpClient httpClient):ITickTsHttpClient
 {

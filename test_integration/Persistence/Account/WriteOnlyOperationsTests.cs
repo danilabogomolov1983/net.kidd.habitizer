@@ -1,9 +1,9 @@
 using LanguageExt.UnsafeValueAccess;
-using Wst.Tools.PosiBridge.Domain.Account;
-using Wst.Tools.PosiBridge.Persistence.Account;
-using Wst.Tools.PosiBridge.TestCompanion;
+using Net.Kidd.Habitizer.Domain.Account;
+using Net.Kidd.Habitizer.Persistence.Account;
+using Net.Kidd.Habitizer.TestCompanion;
 
-namespace Wst.Tools.PosiBridge.Persistence.IntegrationTest.Account;
+namespace Net.Kidd.Habitizer.Persistence.IntegrationTest.Account;
 
 [Collection("IntegrationTests")]
 public class WriteOnlyOperationsTests(IntegrationTestsFixture fixture)

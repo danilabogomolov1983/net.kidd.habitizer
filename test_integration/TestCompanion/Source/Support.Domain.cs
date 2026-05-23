@@ -1,7 +1,7 @@
-using Wst.Tools.PosiBridge.Domain.Source;
-using Wst.Tools.PosiBridge.Domain.ValueObjects;
+using Net.Kidd.Habitizer.Domain.Source;
+using Net.Kidd.Habitizer.Domain.ValueObjects;
 
-namespace Wst.Tools.PosiBridge.TestCompanion.Source;
+namespace Net.Kidd.Habitizer.TestCompanion.Source;
 
 public static class Support
 {
@@ -9,11 +9,11 @@ public static class Support
     {
         public static SourceName NewSourceName()
         {
-            var faker = Wst.Tools.PosiBridge.TestCompanion.Support.NewFaker();
+            var faker = Net.Kidd.Habitizer.TestCompanion.Support.NewFaker();
             return new SourceName(faker.Company.CompanyName() + faker.Random.Uuid());
         }
 
-        public static Wst.Tools.PosiBridge.Domain.Source.Source NewSource() =>
+        public static Net.Kidd.Habitizer.Domain.Source.Source NewSource() =>
             new(SourceId.New(), NewSourceName());
     }
 }

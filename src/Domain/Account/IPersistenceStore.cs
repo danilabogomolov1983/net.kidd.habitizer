@@ -1,7 +1,7 @@
 using LanguageExt;
-using Wst.Tools.PosiBridge.Domain.ValueObjects;
+using Net.Kidd.Habitizer.Domain.ValueObjects;
 
-namespace Wst.Tools.PosiBridge.Domain.Account;
+namespace Net.Kidd.Habitizer.Domain.Account;
 
 public interface IPersistenceStore
 {

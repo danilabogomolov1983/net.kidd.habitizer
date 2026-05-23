@@ -1,4 +1,4 @@
-namespace Wst.Tools.PosiBridge.Domain.Source;
+namespace Net.Kidd.Habitizer.Domain.Source;
 
 public record SourceId(Guid Value)
 {

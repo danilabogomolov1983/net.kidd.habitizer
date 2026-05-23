@@ -4,7 +4,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Wst.Tools.PosiBridge.Application.Test
+namespace Net.Kidd.Habitizer.Application.Test
 {
     [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
     internal static class SelfRegisteredExtensions

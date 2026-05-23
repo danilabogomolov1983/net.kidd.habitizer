@@ -1,14 +1,14 @@
 using LanguageExt.UnsafeValueAccess;
 using Microsoft.Extensions.Logging.Abstractions;
-using Wst.Tools.PosiBridge.Domain.Account;
-using Wst.Tools.PosiBridge.Domain.Snapshot;
-using Wst.Tools.PosiBridge.Domain.Source;
-using Wst.Tools.PosiBridge.TestCompanion;
-using GetPosition = Wst.Tools.PosiBridge.Application.Position.Get;
-using PutPosition = Wst.Tools.PosiBridge.Application.Position.Put;
-using SaveSnapshot = Wst.Tools.PosiBridge.Application.Snapshot.Save;
+using Net.Kidd.Habitizer.Domain.Account;
+using Net.Kidd.Habitizer.Domain.Snapshot;
+using Net.Kidd.Habitizer.Domain.Source;
+using Net.Kidd.Habitizer.TestCompanion;
+using GetPosition = Net.Kidd.Habitizer.Application.Position.Get;
+using PutPosition = Net.Kidd.Habitizer.Application.Position.Put;
+using SaveSnapshot = Net.Kidd.Habitizer.Application.Snapshot.Save;
 
-namespace Wst.Tools.PosiBridge.Application.Test.Snapshot.Save;
+namespace Net.Kidd.Habitizer.Application.Test.Snapshot.Save;
 
 public class ServiceTests(InMemoryFixture fixture) : IClassFixture<InMemoryFixture>
 {

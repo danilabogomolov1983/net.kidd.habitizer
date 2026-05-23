@@ -1,8 +1,8 @@
-using Wst.Tools.PosiBridge.Domain.ValueObjects;
-using Wst.Tools.PosiBridge.Shared.Kernel;
-using InstrumentId = Wst.Tools.PosiBridge.Domain.Instrument.InstrumentId;
+using Net.Kidd.Habitizer.Domain.ValueObjects;
+using Net.Kidd.Habitizer.Shared.Kernel;
+using InstrumentId = Net.Kidd.Habitizer.Domain.Instrument.InstrumentId;
 
-namespace Wst.Tools.PosiBridge.Persistence.Instrument;
+namespace Net.Kidd.Habitizer.Persistence.Instrument;
 
 public struct Mapper : IMap<Domain.Instrument.Instrument, InstrumentDbo>
 {

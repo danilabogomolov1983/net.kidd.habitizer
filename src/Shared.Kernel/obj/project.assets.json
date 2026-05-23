@@ -395,9 +395,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Shared.Kernel/Wst.Tools.PosiBridge.Shared.Kernel.csproj",
-      "projectName": "Wst.Tools.PosiBridge.Shared.Kernel",
-      "projectPath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Shared.Kernel/Wst.Tools.PosiBridge.Shared.Kernel.csproj",
+      "projectUniqueName": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Shared.Kernel/Net.Kidd.Habitizer.Shared.Kernel.csproj",
+      "projectName": "Net.Kidd.Habitizer.Shared.Kernel",
+      "projectPath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Shared.Kernel/Net.Kidd.Habitizer.Shared.Kernel.csproj",
       "packagesPath": "/home/danila/.nuget/packages/",
       "outputPath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Shared.Kernel/obj/",
       "projectStyle": "PackageReference",

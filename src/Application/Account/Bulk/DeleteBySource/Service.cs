@@ -1,9 +1,9 @@
 using LanguageExt;
-using Wst.Tools.PosiBridge.Domain.Account;
-using Wst.Tools.PosiBridge.Shared.Kernel.Functional;
-using GetByNamesSource = Wst.Tools.PosiBridge.Application.Source.Bulk.GetByNames;
+using Net.Kidd.Habitizer.Domain.Account;
+using Net.Kidd.Habitizer.Shared.Kernel.Functional;
+using GetByNamesSource = Net.Kidd.Habitizer.Application.Source.Bulk.GetByNames;
 
-namespace Wst.Tools.PosiBridge.Application.Account.Bulk.DeleteBySource;
+namespace Net.Kidd.Habitizer.Application.Account.Bulk.DeleteBySource;
 
 public class Service(GetByNamesSource.Service getByNamesSource, IBulkStore bulkStore)
 {

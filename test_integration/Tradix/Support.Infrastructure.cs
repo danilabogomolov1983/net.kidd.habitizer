@@ -1,10 +1,10 @@
 using System.Data;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-using Wst.Tools.PosiBridge.Tradix.Snapshot;
-using Wst.Tools.PosiBridge.Tradix.Snapshot.Position;
+using Net.Kidd.Habitizer.Tradix.Snapshot;
+using Net.Kidd.Habitizer.Tradix.Snapshot.Position;
 
-namespace Wst.Tools.PosiBridge.Tradix.IntegrationTest;
+namespace Net.Kidd.Habitizer.Tradix.IntegrationTest;
 
 public static partial class Support
 {

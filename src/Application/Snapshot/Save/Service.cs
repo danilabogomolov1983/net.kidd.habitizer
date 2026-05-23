@@ -1,11 +1,11 @@
 using LanguageExt;
 using LanguageExt.Common;
 using Microsoft.Extensions.Logging;
-using PositionPut = Wst.Tools.PosiBridge.Application.Position.Put;
-using Wst.Tools.PosiBridge.Domain.Snapshot;
-using Wst.Tools.PosiBridge.Domain.ValueObjects;
+using PositionPut = Net.Kidd.Habitizer.Application.Position.Put;
+using Net.Kidd.Habitizer.Domain.Snapshot;
+using Net.Kidd.Habitizer.Domain.ValueObjects;
 
-namespace Wst.Tools.PosiBridge.Application.Snapshot.Save;
+namespace Net.Kidd.Habitizer.Application.Snapshot.Save;
 
 public class Service(
     PositionPut.Service positionPutService,

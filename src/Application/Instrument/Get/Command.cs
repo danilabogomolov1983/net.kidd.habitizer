@@ -1,6 +1,6 @@
-using Wst.Tools.PosiBridge.Domain.ValueObjects;
+using Net.Kidd.Habitizer.Domain.ValueObjects;
 
-namespace Wst.Tools.PosiBridge.Application.Instrument.Get;
+namespace Net.Kidd.Habitizer.Application.Instrument.Get;
 
 public sealed record Command(Isin Isin);
 

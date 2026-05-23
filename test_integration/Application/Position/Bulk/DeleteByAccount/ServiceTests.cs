@@ -1,13 +1,13 @@
 using LanguageExt.UnsafeValueAccess;
-using Wst.Tools.PosiBridge.TestCompanion;
-using DeleteByAccountPosition = Wst.Tools.PosiBridge.Application.Position.Bulk.DeleteByAccount;
-using PositionAddMissing = Wst.Tools.PosiBridge.Application.Position.Bulk.AddMissing;
-using AccountAddMissing = Wst.Tools.PosiBridge.Application.Account.Bulk.AddMissing;
-using InstrumentAddMissing = Wst.Tools.PosiBridge.Application.Instrument.Bulk.AddMissing;
-using SourceAddMissing = Wst.Tools.PosiBridge.Application.Source.Bulk.AddMissing;
-using PositionGetByAccounts = Wst.Tools.PosiBridge.Application.Position.Bulk.GetByAccounts;
+using Net.Kidd.Habitizer.TestCompanion;
+using DeleteByAccountPosition = Net.Kidd.Habitizer.Application.Position.Bulk.DeleteByAccount;
+using PositionAddMissing = Net.Kidd.Habitizer.Application.Position.Bulk.AddMissing;
+using AccountAddMissing = Net.Kidd.Habitizer.Application.Account.Bulk.AddMissing;
+using InstrumentAddMissing = Net.Kidd.Habitizer.Application.Instrument.Bulk.AddMissing;
+using SourceAddMissing = Net.Kidd.Habitizer.Application.Source.Bulk.AddMissing;
+using PositionGetByAccounts = Net.Kidd.Habitizer.Application.Position.Bulk.GetByAccounts;
 
-namespace Wst.Tools.PosiBridge.Application.IntegrationTest.Position.Bulk.DeleteByAccount;
+namespace Net.Kidd.Habitizer.Application.IntegrationTest.Position.Bulk.DeleteByAccount;
 
 [Collection("IntegrationTests")]
 public class ServiceTests(IntegrationTestsFixture fixture)

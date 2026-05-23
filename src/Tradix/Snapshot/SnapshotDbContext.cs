@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using Wst.Tools.PosiBridge.Tradix.Snapshot.Position;
+using Net.Kidd.Habitizer.Tradix.Snapshot.Position;
 
-namespace Wst.Tools.PosiBridge.Tradix.Snapshot;
+namespace Net.Kidd.Habitizer.Tradix.Snapshot;
 
 public class SnapshotDbContext(DbContextOptions<SnapshotDbContext> options): DbContext(options)
 {

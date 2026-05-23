@@ -8,12 +8,12 @@ using System.Net;
 using System.Net.Http.Json;
 using System.Text;
 using System.Text.Json;
-using Wst.Tools.PosiBridge.Application.Snapshot;
-using Wst.Tools.PosiBridge.Domain.Account;
-using Wst.Tools.PosiBridge.Domain.Snapshot;
-using Wst.Tools.PosiBridge.TickTs.Http;
+using Net.Kidd.Habitizer.Application.Snapshot;
+using Net.Kidd.Habitizer.Domain.Account;
+using Net.Kidd.Habitizer.Domain.Snapshot;
+using Net.Kidd.Habitizer.TickTs.Http;
 
-namespace Wst.Tools.PosiBridge.TickTs.IntegrationTest;
+namespace Net.Kidd.Habitizer.TickTs.IntegrationTest;
 
 public sealed class TickTsFixture : IAsyncLifetime
 {

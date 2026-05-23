@@ -1,8 +1,8 @@
 using LanguageExt;
-using Wst.Tools.PosiBridge.Domain.Position;
-using Wst.Tools.PosiBridge.Shared.Kernel.Functional;
+using Net.Kidd.Habitizer.Domain.Position;
+using Net.Kidd.Habitizer.Shared.Kernel.Functional;
 
-namespace Wst.Tools.PosiBridge.Application.Position.Bulk.AddMissing;
+namespace Net.Kidd.Habitizer.Application.Position.Bulk.AddMissing;
 
 public class Service(IBulkStore bulkStore)
 {

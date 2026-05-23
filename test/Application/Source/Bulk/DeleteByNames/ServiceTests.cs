@@ -1,10 +1,10 @@
-using Wst.Tools.PosiBridge.Persistence.Source;
-using Wst.Tools.PosiBridge.TestCompanion;
-using DeleteByNamesSource = Wst.Tools.PosiBridge.Application.Source.Bulk.DeleteByNames;
-using GetByNamesSource = Wst.Tools.PosiBridge.Application.Source.Bulk.GetByNames;
-using SourceAddMissing = Wst.Tools.PosiBridge.Application.Source.Bulk.AddMissing;
+using Net.Kidd.Habitizer.Persistence.Source;
+using Net.Kidd.Habitizer.TestCompanion;
+using DeleteByNamesSource = Net.Kidd.Habitizer.Application.Source.Bulk.DeleteByNames;
+using GetByNamesSource = Net.Kidd.Habitizer.Application.Source.Bulk.GetByNames;
+using SourceAddMissing = Net.Kidd.Habitizer.Application.Source.Bulk.AddMissing;
 
-namespace Wst.Tools.PosiBridge.Application.Test.Source.Bulk.DeleteByNames;
+namespace Net.Kidd.Habitizer.Application.Test.Source.Bulk.DeleteByNames;
 
 public class ServiceTests(InMemoryFixture fixture) : IClassFixture<InMemoryFixture>
 {

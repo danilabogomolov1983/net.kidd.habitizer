@@ -1,7 +1,7 @@
 using FluentValidation.TestHelper;
-using Wst.Tools.PosiBridge.TickTs.Configuration;
+using Net.Kidd.Habitizer.TickTs.Configuration;
 
-namespace Wst.Tools.PosiBridge.TickTs.Test.Configuration;
+namespace Net.Kidd.Habitizer.TickTs.Test.Configuration;
 
 public class TickTsSettingsTests
 {

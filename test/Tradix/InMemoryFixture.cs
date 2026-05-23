@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using Wst.Tools.PosiBridge.Tradix.Snapshot;
+using Net.Kidd.Habitizer.Tradix.Snapshot;
 
-namespace Wst.Tools.PosiBridge.Tradix.Test;
+namespace Net.Kidd.Habitizer.Tradix.Test;
 
 public sealed class InMemoryFixture
 {

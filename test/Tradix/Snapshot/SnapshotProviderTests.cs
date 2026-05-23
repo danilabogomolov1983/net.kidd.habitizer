@@ -1,10 +1,10 @@
 using LanguageExt.UnsafeValueAccess;
-using Wst.Tools.PosiBridge.Domain.Position;
-using Wst.Tools.PosiBridge.Domain.Snapshot;
-using Wst.Tools.PosiBridge.Domain.Source;
-using Wst.Tools.PosiBridge.Tradix.Snapshot;
+using Net.Kidd.Habitizer.Domain.Position;
+using Net.Kidd.Habitizer.Domain.Snapshot;
+using Net.Kidd.Habitizer.Domain.Source;
+using Net.Kidd.Habitizer.Tradix.Snapshot;
 
-namespace Wst.Tools.PosiBridge.Tradix.Test.Snapshot;
+namespace Net.Kidd.Habitizer.Tradix.Test.Snapshot;
 
 public class SnapshotProviderTests(InMemoryFixture fixture) : IClassFixture<InMemoryFixture>
 {

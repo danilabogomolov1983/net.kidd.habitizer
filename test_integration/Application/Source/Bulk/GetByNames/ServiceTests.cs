@@ -1,8 +1,8 @@
 using LanguageExt.UnsafeValueAccess;
-using Wst.Tools.PosiBridge.TestCompanion;
-using GetByNamesSource = Wst.Tools.PosiBridge.Application.Source.Bulk.GetByNames;
+using Net.Kidd.Habitizer.TestCompanion;
+using GetByNamesSource = Net.Kidd.Habitizer.Application.Source.Bulk.GetByNames;
 
-namespace Wst.Tools.PosiBridge.Application.IntegrationTest.Source.Bulk.GetByNames;
+namespace Net.Kidd.Habitizer.Application.IntegrationTest.Source.Bulk.GetByNames;
 
 
 [Collection("IntegrationTests")]

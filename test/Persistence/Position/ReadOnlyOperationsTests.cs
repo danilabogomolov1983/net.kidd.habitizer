@@ -1,8 +1,8 @@
-using Wst.Tools.PosiBridge.Domain.Position;
-using Wst.Tools.PosiBridge.Persistence.Position;
-using Wst.Tools.PosiBridge.TestCompanion;
+using Net.Kidd.Habitizer.Domain.Position;
+using Net.Kidd.Habitizer.Persistence.Position;
+using Net.Kidd.Habitizer.TestCompanion;
 
-namespace Wst.Tools.PosiBridge.Persistence.Test.Position;
+namespace Net.Kidd.Habitizer.Persistence.Test.Position;
 
 public class ReadOnlyOperationsTests(InMemoryFixture fixture) : IClassFixture<InMemoryFixture>
 {

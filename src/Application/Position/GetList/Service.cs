@@ -1,8 +1,8 @@
 using LanguageExt;
 using System.Collections.Immutable;
-using Wst.Tools.PosiBridge.Domain.Position;
+using Net.Kidd.Habitizer.Domain.Position;
 
-namespace Wst.Tools.PosiBridge.Application.Position.GetList;
+namespace Net.Kidd.Habitizer.Application.Position.GetList;
 
 public class Service(IPersistenceStore persistenceStore)
 {

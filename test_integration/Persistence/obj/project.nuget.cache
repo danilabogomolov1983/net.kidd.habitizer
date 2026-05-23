@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4C38mADwpSQ=",
+  "dgSpecHash": "JG+3Yz104l8=",
   "success": true,
-  "projectFilePath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/test_integration/Persistence/Wst.Tools.PosiBridge.Persistence.IntegrationTest.csproj",
+  "projectFilePath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/test_integration/Persistence/Net.Kidd.Habitizer.Persistence.IntegrationTest.csproj",
   "expectedPackageFiles": [
     "/home/danila/.nuget/packages/azure.core/1.47.1/azure.core.1.47.1.nupkg.sha512",
     "/home/danila/.nuget/packages/azure.identity/1.14.2/azure.identity.1.14.2.nupkg.sha512",

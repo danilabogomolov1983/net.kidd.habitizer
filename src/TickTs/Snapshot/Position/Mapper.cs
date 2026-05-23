@@ -1,7 +1,7 @@
-using Wst.Tools.PosiBridge.Domain.ValueObjects;
-using Wst.Tools.PosiBridge.Shared.Kernel;
+using Net.Kidd.Habitizer.Domain.ValueObjects;
+using Net.Kidd.Habitizer.Shared.Kernel;
 
-namespace Wst.Tools.PosiBridge.TickTs.Snapshot.Position;
+namespace Net.Kidd.Habitizer.TickTs.Snapshot.Position;
 
 public struct Mapper : IOnewayMap<Domain.Position.Position, (Domain.Account.Account, Response)>
 {

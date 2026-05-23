@@ -1,8 +1,8 @@
 using Microsoft.Extensions.Logging;
 using System.Collections.Concurrent;
-using Wst.Tools.PosiBridge.Shared.Kernel.Functional;
+using Net.Kidd.Habitizer.Shared.Kernel.Functional;
 
-namespace Wst.Tools.PosiBridge.Shared.Kernel;
+namespace Net.Kidd.Habitizer.Shared.Kernel;
 
 public class FirstLevelCache<T>(ILogger<FirstLevelCache<T>> logger) : IDisposable where T : IDisposable
 {

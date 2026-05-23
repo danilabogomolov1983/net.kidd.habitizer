@@ -1,20 +1,20 @@
-name: wst-tools-posibridge
+name: net-kidd-habitizer
 
 services:
   syncdaemon:
-    image: "${SYNCDAEMON_IMAGE_TAG:-wst-tools-posibridge-syncdaemon:latest}"
+    image: "${SYNCDAEMON_IMAGE_TAG:-net-kidd-habitizer-syncdaemon:latest}"
     env_file:
       - .env
     networks:
-      - posibridge-network
+      - habitizer-network
     volumes:
-      - wst-tools-posibridge-syncdaemon-logs:/app/publish/logs
+      - net-kidd-habitizer-syncdaemon-logs:/app/publish/logs
     restart: unless-stopped
 
 networks:
-  posibridge-network:
-    name: posibridge-network
+  habitizer-network:
+    name: habitizer-network
 
 volumes:
-  wst-tools-posibridge-syncdaemon-logs:
-    name: wst-tools-posibridge-syncdaemon-logs
+  net-kidd-habitizer-syncdaemon-logs:
+    name: net-kidd-habitizer-syncdaemon-logs

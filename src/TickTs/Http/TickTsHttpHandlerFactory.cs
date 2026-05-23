@@ -1,8 +1,8 @@
 using System.Net;
 using System.Net.Sockets;
-using Wst.Tools.PosiBridge.TickTs.Configuration;
+using Net.Kidd.Habitizer.TickTs.Configuration;
 
-namespace Wst.Tools.PosiBridge.TickTs.Http;
+namespace Net.Kidd.Habitizer.TickTs.Http;
 
 internal static class TickTsHttpHandlerFactory
 {

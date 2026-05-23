@@ -1,9 +1,9 @@
-using Wst.Tools.PosiBridge.Domain.Account;
-using Wst.Tools.PosiBridge.Persistence.Account;
-using Wst.Tools.PosiBridge.TestCompanion;
-using static Wst.Tools.PosiBridge.Domain.Position.Extensions;
+using Net.Kidd.Habitizer.Domain.Account;
+using Net.Kidd.Habitizer.Persistence.Account;
+using Net.Kidd.Habitizer.TestCompanion;
+using static Net.Kidd.Habitizer.Domain.Position.Extensions;
 
-namespace Wst.Tools.PosiBridge.Persistence.IntegrationTest.Account;
+namespace Net.Kidd.Habitizer.Persistence.IntegrationTest.Account;
 
 [Collection("IntegrationTests")]
 public class BulkOperationsTests(IntegrationTestsFixture fixture)

@@ -1,8 +1,8 @@
 using LanguageExt;
-using Wst.Tools.PosiBridge.Domain.Source;
-using Wst.Tools.PosiBridge.Shared.Kernel.Functional;
+using Net.Kidd.Habitizer.Domain.Source;
+using Net.Kidd.Habitizer.Shared.Kernel.Functional;
 
-namespace Wst.Tools.PosiBridge.Application.Source.Bulk.GetByNames;
+namespace Net.Kidd.Habitizer.Application.Source.Bulk.GetByNames;
 
 public class Service(IBulkStore bulkStore)
 {

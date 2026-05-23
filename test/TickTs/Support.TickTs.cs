@@ -1,4 +1,4 @@
-﻿namespace Wst.Tools.PosiBridge.TickTs.Test;
+﻿namespace Net.Kidd.Habitizer.TickTs.Test;
 
 public static partial class Support
 {

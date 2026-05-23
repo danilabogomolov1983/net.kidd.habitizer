@@ -1,9 +1,9 @@
 using System.Collections.Immutable;
-using Wst.Tools.PosiBridge.Domain.Snapshot;
-using Wst.Tools.PosiBridge.Domain.ValueObjects;
-using Wst.Tools.PosiBridge.Shared.Kernel;
+using Net.Kidd.Habitizer.Domain.Snapshot;
+using Net.Kidd.Habitizer.Domain.ValueObjects;
+using Net.Kidd.Habitizer.Shared.Kernel;
 
-namespace Wst.Tools.PosiBridge.TickTs.Snapshot;
+namespace Net.Kidd.Habitizer.TickTs.Snapshot;
 
 public struct Mapper : IOnewayMap<Domain.Snapshot.Snapshot, (string, Response)>
 {

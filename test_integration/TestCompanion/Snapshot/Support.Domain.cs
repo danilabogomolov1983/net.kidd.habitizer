@@ -1,8 +1,8 @@
 using System.Collections.Immutable;
-using Wst.Tools.PosiBridge.Domain.Position;
-using Wst.Tools.PosiBridge.Domain.Snapshot;
+using Net.Kidd.Habitizer.Domain.Position;
+using Net.Kidd.Habitizer.Domain.Snapshot;
 
-namespace Wst.Tools.PosiBridge.TestCompanion.Snapshot;
+namespace Net.Kidd.Habitizer.TestCompanion.Snapshot;
 
 public static class Support
 {

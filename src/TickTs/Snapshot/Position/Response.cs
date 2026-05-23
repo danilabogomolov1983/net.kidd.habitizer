@@ -1,4 +1,4 @@
-namespace Wst.Tools.PosiBridge.TickTs.Snapshot.Position;
+namespace Net.Kidd.Habitizer.TickTs.Snapshot.Position;
 
 public sealed record Response(
     string Id,

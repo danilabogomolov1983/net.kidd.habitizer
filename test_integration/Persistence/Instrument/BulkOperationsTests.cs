@@ -1,10 +1,10 @@
-using Wst.Tools.PosiBridge.Domain.Instrument;
-using Wst.Tools.PosiBridge.Persistence.Instrument;
-using Wst.Tools.PosiBridge.TestCompanion;
-using static Wst.Tools.PosiBridge.Domain.Position.Extensions;
-using static Wst.Tools.PosiBridge.Domain.Account.Extensions;
+using Net.Kidd.Habitizer.Domain.Instrument;
+using Net.Kidd.Habitizer.Persistence.Instrument;
+using Net.Kidd.Habitizer.TestCompanion;
+using static Net.Kidd.Habitizer.Domain.Position.Extensions;
+using static Net.Kidd.Habitizer.Domain.Account.Extensions;
 
-namespace Wst.Tools.PosiBridge.Persistence.IntegrationTest.Instrument;
+namespace Net.Kidd.Habitizer.Persistence.IntegrationTest.Instrument;
 
 [Collection("IntegrationTests")]
 public class BulkOperationsTests(IntegrationTestsFixture fixture)

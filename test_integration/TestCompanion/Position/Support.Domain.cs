@@ -1,10 +1,10 @@
-namespace Wst.Tools.PosiBridge.TestCompanion.Position;
+namespace Net.Kidd.Habitizer.TestCompanion.Position;
 
 public static class Support
 {
     public static class Domain
     {
-        public static Wst.Tools.PosiBridge.Domain.Position.Position NewPosition() =>
+        public static Net.Kidd.Habitizer.Domain.Position.Position NewPosition() =>
             new(
                 Account.Support.Domain.NewAccount(),
                 Instrument.Support.Domain.NewInstrument(),
@@ -13,10 +13,10 @@ public static class Support
                 NewDecimal(),
                 NewDecimal(),
                 NewDecimal(),
-                new Wst.Tools.PosiBridge.Domain.Position.ReferencePrice.ReferencePrice(
+                new Net.Kidd.Habitizer.Domain.Position.ReferencePrice.ReferencePrice(
                     NewDecimal(),
-                    Wst.Tools.PosiBridge.TestCompanion.Support.NewFaker().PickRandom("EUR", "USD", "CHF"),
-                    Wst.Tools.PosiBridge.TestCompanion.Support.NewFaker().PickRandom("XETRA", "NYSE", "SIX"),
+                    Net.Kidd.Habitizer.TestCompanion.Support.NewFaker().PickRandom("EUR", "USD", "CHF"),
+                    Net.Kidd.Habitizer.TestCompanion.Support.NewFaker().PickRandom("XETRA", "NYSE", "SIX"),
                     NewDecimal()));
     }
 }

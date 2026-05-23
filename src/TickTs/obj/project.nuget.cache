@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nEHPQZ4t6FM=",
+  "dgSpecHash": "zE1BG84F2cA=",
   "success": true,
-  "projectFilePath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/TickTs/Wst.Tools.PosiBridge.TickTs.csproj",
+  "projectFilePath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/TickTs/Net.Kidd.Habitizer.TickTs.csproj",
   "expectedPackageFiles": [
     "/home/danila/.nuget/packages/fluentvalidation/12.1.1/fluentvalidation.12.1.1.nupkg.sha512",
     "/home/danila/.nuget/packages/fluentvalidation.dependencyinjectionextensions/12.1.1/fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",

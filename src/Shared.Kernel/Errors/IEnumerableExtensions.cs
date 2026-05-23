@@ -1,4 +1,4 @@
-namespace Wst.Tools.PosiBridge.Shared.Kernel.Errors;
+namespace Net.Kidd.Habitizer.Shared.Kernel.Errors;
 
 public static class EnumerableExtensions
 {

@@ -1,0 +1,42 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Application/Net.Kidd.Habitizer.Application.csproj" />
+    <Project Path="src/Domain/Net.Kidd.Habitizer.Domain.csproj" />
+    <Project Path="src/Shared.Kernel/Net.Kidd.Habitizer.Shared.Kernel.csproj" />
+    <Project Path="src/TickTs/Net.Kidd.Habitizer.TickTs.csproj" />
+    <Project Path="src/Persistence/Net.Kidd.Habitizer.Persistence.csproj" />
+    <Project Path="src/Tradix/Net.Kidd.Habitizer.Tradix.csproj" />
+  </Folder>
+  <Folder Name="/src/Apps/">
+    <Project Path="src/Apps/Net.Kidd.Habitizer.SyncDaemon/Net.Kidd.Habitizer.SyncDaemon.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/Api/Net.Kidd.Habitizer.Api.Test.csproj" />
+    <Project Path="test/Application/Net.Kidd.Habitizer.Application.Test.csproj" />
+    <Project Path="test/Domain/Net.Kidd.Habitizer.Domain.Test.csproj" />
+    <Project Path="test/TickTs/Net.Kidd.Habitizer.TickTs.Test.csproj" />
+    <Project Path="test/Tradix/Net.Kidd.Habitizer.Tradix.Test.csproj" />
+    <Project Path="test/Persistence/Net.Kidd.Habitizer.Persistence.Test.csproj" />
+    <Project Path="test/TestCompanion/Net.Kidd.Habitizer.TestCompanion.csproj" />
+  </Folder>
+  <Folder Name="/test/FolderItems/">
+    <File Path="test/readme.md" />
+  </Folder>
+  <Folder Name="/test_integration/">
+    <Project Path="test_integration/Application/Net.Kidd.Habitizer.Application.IntegrationTest.csproj" />
+    <Project Path="test_integration/Persistence/Net.Kidd.Habitizer.Persistence.IntegrationTest.csproj" />
+    <Project Path="test_integration/TestCompanion/Net.Kidd.Habitizer.TestCompanion.csproj" />
+    <Project Path="test_integration/TickTs/Net.Kidd.Habitizer.TickTs.IntegrationTest.csproj" />
+    <Project Path="test_integration/Tradix/Net.Kidd.Habitizer.Tradix.IntegrationTest.csproj" />
+  </Folder>
+  <Folder Name="/test_integration/FolderItems/">
+    <File Path="test_integration/Directory.Build.props" />
+    <File Path="test_integration/readme.md" />
+  </Folder>
+</Solution>

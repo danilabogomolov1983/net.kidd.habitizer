@@ -1,6 +1,6 @@
-using Wst.Tools.PosiBridge.Domain.Snapshot;
+using Net.Kidd.Habitizer.Domain.Snapshot;
 
-namespace Wst.Tools.PosiBridge.Application.Snapshot.Configuration;
+namespace Net.Kidd.Habitizer.Application.Snapshot.Configuration;
 
 public class SyncSettings
 {

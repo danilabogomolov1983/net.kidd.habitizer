@@ -1,7 +1,7 @@
-using Wst.Tools.PosiBridge.Persistence.Account;
-using Wst.Tools.PosiBridge.Persistence.Instrument;
+using Net.Kidd.Habitizer.Persistence.Account;
+using Net.Kidd.Habitizer.Persistence.Instrument;
 
-namespace Wst.Tools.PosiBridge.Persistence.Position;
+namespace Net.Kidd.Habitizer.Persistence.Position;
 
 public class PositionDbo
 {

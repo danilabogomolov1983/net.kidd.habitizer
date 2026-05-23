@@ -1,7 +1,7 @@
-using Wst.Tools.PosiBridge.Domain.Position.ReferencePrice;
-using Wst.Tools.PosiBridge.Shared.Kernel;
+using Net.Kidd.Habitizer.Domain.Position.ReferencePrice;
+using Net.Kidd.Habitizer.Shared.Kernel;
 
-namespace Wst.Tools.PosiBridge.Persistence.Position;
+namespace Net.Kidd.Habitizer.Persistence.Position;
 
 public struct Mapper : IMap<Domain.Position.Position, PositionDbo>
 {

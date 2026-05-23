@@ -1,5 +1,5 @@
-using Wst.Tools.PosiBridge.Domain.ValueObjects;
+using Net.Kidd.Habitizer.Domain.ValueObjects;
 
-namespace Wst.Tools.PosiBridge.Application.Instrument.Bulk.GetByIsins;
+namespace Net.Kidd.Habitizer.Application.Instrument.Bulk.GetByIsins;
 
 public sealed record Command(IReadOnlyList<Isin> Isins);

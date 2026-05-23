@@ -1,6 +1,6 @@
 using System.Reflection;
 
-namespace Wst.Tools.PosiBridge.Persistence;
+namespace Net.Kidd.Habitizer.Persistence;
 
 public record Anchor;
 // ReSharper disable once UnusedType.Global

@@ -1,7 +1,7 @@
 using LanguageExt;
-using Wst.Tools.PosiBridge.Domain.Account;
+using Net.Kidd.Habitizer.Domain.Account;
 
-namespace Wst.Tools.PosiBridge.Application.Account.Bulk.Update;
+namespace Net.Kidd.Habitizer.Application.Account.Bulk.Update;
 
 public class Service(IBulkStore bulkStore)
 {

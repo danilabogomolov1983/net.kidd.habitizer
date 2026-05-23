@@ -1,6 +1,6 @@
-using Wst.Tools.PosiBridge.Domain.Account;
+using Net.Kidd.Habitizer.Domain.Account;
 
-namespace Wst.Tools.PosiBridge.Domain.Test.Account;
+namespace Net.Kidd.Habitizer.Domain.Test.Account;
 
 public class ExtensionsTests
 {

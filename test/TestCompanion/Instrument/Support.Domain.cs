@@ -1,12 +1,12 @@
-using Wst.Tools.PosiBridge.Domain.Instrument;
+using Net.Kidd.Habitizer.Domain.Instrument;
 
-namespace Wst.Tools.PosiBridge.TestCompanion.Instrument;
+namespace Net.Kidd.Habitizer.TestCompanion.Instrument;
 
 public static class Support
 {
     public static class Domain
     {
-        public static Wst.Tools.PosiBridge.Domain.Instrument.Instrument NewInstrument() => new(InstrumentId.New(), NewIsin());
+        public static Net.Kidd.Habitizer.Domain.Instrument.Instrument NewInstrument() => new(InstrumentId.New(), NewIsin());
         
     }
 }

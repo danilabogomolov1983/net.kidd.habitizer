@@ -1,10 +1,10 @@
 using Microsoft.Extensions.Options;
-using Wst.Tools.PosiBridge.Application.Snapshot.Configuration;
-using Wst.Tools.PosiBridge.Application.Snapshot.Sync;
-using Wst.Tools.PosiBridge.Domain.Snapshot;
-using Wst.Tools.PosiBridge.TestCompanion;
+using Net.Kidd.Habitizer.Application.Snapshot.Configuration;
+using Net.Kidd.Habitizer.Application.Snapshot.Sync;
+using Net.Kidd.Habitizer.Domain.Snapshot;
+using Net.Kidd.Habitizer.TestCompanion;
 
-namespace Wst.Tools.PosiBridge.Application.IntegrationTest.Snapshot.Sync;
+namespace Net.Kidd.Habitizer.Application.IntegrationTest.Snapshot.Sync;
 
 [Collection("IntegrationTests")]
 public class ServiceTests(IntegrationTestsFixture fixture, ITestOutputHelper output)

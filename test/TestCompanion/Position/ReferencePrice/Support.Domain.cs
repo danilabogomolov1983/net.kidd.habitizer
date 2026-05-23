@@ -1,7 +1,7 @@
-using static Wst.Tools.PosiBridge.TestCompanion.Support;
+using static Net.Kidd.Habitizer.TestCompanion.Support;
 
 
-namespace Wst.Tools.PosiBridge.TestCompanion.Position.ReferencePrice;
+namespace Net.Kidd.Habitizer.TestCompanion.Position.ReferencePrice;
 
 public static class Support
 {
@@ -11,7 +11,7 @@ public static class Support
         public static string NewCurrency() => NewFaker().PickRandom("EUR", "USD", "CHF");
         public static string NewExchange() => NewFaker().PickRandom("XETRA", "NYSE", "SIX");
 
-        public static Wst.Tools.PosiBridge.Domain.Position.ReferencePrice.ReferencePrice NewReferencePrice()
+        public static Net.Kidd.Habitizer.Domain.Position.ReferencePrice.ReferencePrice NewReferencePrice()
             => new(NewDecimal(),
                     NewCurrency(),
                     NewExchange(),

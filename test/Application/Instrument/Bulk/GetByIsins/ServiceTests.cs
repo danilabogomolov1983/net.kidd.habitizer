@@ -1,9 +1,9 @@
 using LanguageExt.UnsafeValueAccess;
-using Wst.Tools.PosiBridge.Persistence.Instrument;
-using Wst.Tools.PosiBridge.TestCompanion;
-using GetByIsinsInstrument = Wst.Tools.PosiBridge.Application.Instrument.Bulk.GetByIsins;
+using Net.Kidd.Habitizer.Persistence.Instrument;
+using Net.Kidd.Habitizer.TestCompanion;
+using GetByIsinsInstrument = Net.Kidd.Habitizer.Application.Instrument.Bulk.GetByIsins;
 
-namespace Wst.Tools.PosiBridge.Application.Test.Instrument.Bulk.GetByIsins;
+namespace Net.Kidd.Habitizer.Application.Test.Instrument.Bulk.GetByIsins;
 
 public class ServiceTests(InMemoryFixture fixture) : IClassFixture<InMemoryFixture>
 {

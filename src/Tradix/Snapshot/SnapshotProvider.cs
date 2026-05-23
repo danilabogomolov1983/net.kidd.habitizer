@@ -2,12 +2,12 @@ using LanguageExt;
 using LanguageExt.Common;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Immutable;
-using Wst.Tools.PosiBridge.Application.Snapshot;
-using Wst.Tools.PosiBridge.Domain.Position;
-using Wst.Tools.PosiBridge.Domain.Snapshot;
-using Wst.Tools.PosiBridge.Domain.Source;
+using Net.Kidd.Habitizer.Application.Snapshot;
+using Net.Kidd.Habitizer.Domain.Position;
+using Net.Kidd.Habitizer.Domain.Snapshot;
+using Net.Kidd.Habitizer.Domain.Source;
 
-namespace Wst.Tools.PosiBridge.Tradix.Snapshot;
+namespace Net.Kidd.Habitizer.Tradix.Snapshot;
 
 public sealed class SnapshotProvider(IDbContextFactory<SnapshotDbContext> dbContextFactory) : IPortfolioSnapshotProvider
 {

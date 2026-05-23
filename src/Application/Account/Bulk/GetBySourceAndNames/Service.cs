@@ -1,10 +1,10 @@
 using LanguageExt;
 using LanguageExt.Common;
-using Wst.Tools.PosiBridge.Domain.Account;
-using Wst.Tools.PosiBridge.Shared.Kernel.Functional;
-using GetSource = Wst.Tools.PosiBridge.Application.Source.Get;
+using Net.Kidd.Habitizer.Domain.Account;
+using Net.Kidd.Habitizer.Shared.Kernel.Functional;
+using GetSource = Net.Kidd.Habitizer.Application.Source.Get;
 
-namespace Wst.Tools.PosiBridge.Application.Account.Bulk.GetBySourceAndNames;
+namespace Net.Kidd.Habitizer.Application.Account.Bulk.GetBySourceAndNames;
 
 public class Service(GetSource.Service getSource, IBulkStore bulkStore)
 {

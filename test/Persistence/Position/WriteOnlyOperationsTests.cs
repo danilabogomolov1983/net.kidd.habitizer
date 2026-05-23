@@ -1,10 +1,10 @@
 using LanguageExt.UnsafeValueAccess;
-using Wst.Tools.PosiBridge.Domain.Position;
-using Wst.Tools.PosiBridge.Persistence.Position;
-using Wst.Tools.PosiBridge.TestCompanion;
-using Support = Wst.Tools.PosiBridge.TestCompanion.Position.Support;
+using Net.Kidd.Habitizer.Domain.Position;
+using Net.Kidd.Habitizer.Persistence.Position;
+using Net.Kidd.Habitizer.TestCompanion;
+using Support = Net.Kidd.Habitizer.TestCompanion.Position.Support;
 
-namespace Wst.Tools.PosiBridge.Persistence.Test.Position;
+namespace Net.Kidd.Habitizer.Persistence.Test.Position;
 
 public class WriteOnlyOperationsTests(InMemoryFixture fixture) : IClassFixture<InMemoryFixture>
 {

@@ -4,11 +4,11 @@ WORKDIR /repo
 
 COPY . /repo
 
-RUN dotnet restore "/repo/src/Apps/Wst.Tools.PosiBridge.SyncDaemon/Wst.Tools.PosiBridge.SyncDaemon.csproj"
-RUN dotnet publish "/repo/src/Apps/Wst.Tools.PosiBridge.SyncDaemon/Wst.Tools.PosiBridge.SyncDaemon.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet restore "/repo/src/Apps/Net.Kidd.Habitizer.SyncDaemon/Net.Kidd.Habitizer.SyncDaemon.csproj"
+RUN dotnet publish "/repo/src/Apps/Net.Kidd.Habitizer.SyncDaemon/Net.Kidd.Habitizer.SyncDaemon.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM mcr.microsoft.com/dotnet/runtime:10.0 AS final
 WORKDIR /app/publish
 COPY --from=build /app/publish /app/publish
 
-ENTRYPOINT ["dotnet", "Wst.Tools.PosiBridge.SyncDaemon.dll"]
+ENTRYPOINT ["dotnet", "Net.Kidd.Habitizer.SyncDaemon.dll"]

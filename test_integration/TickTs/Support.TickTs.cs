@@ -1,4 +1,4 @@
-﻿namespace Wst.Tools.PosiBridge.TickTs.IntegrationTest;
+﻿namespace Net.Kidd.Habitizer.TickTs.IntegrationTest;
 
 public partial class Support
 {

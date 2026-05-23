@@ -1,4 +1,4 @@
-namespace Wst.Tools.PosiBridge.Persistence;
+namespace Net.Kidd.Habitizer.Persistence;
 
 public class PersistenceOptions
 {

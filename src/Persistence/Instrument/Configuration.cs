@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Wst.Tools.PosiBridge.Persistence.Instrument;
+namespace Net.Kidd.Habitizer.Persistence.Instrument;
 
 public class Configuration : IEntityTypeConfiguration<InstrumentDbo>
 {

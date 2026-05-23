@@ -1,6 +1,6 @@
 using LanguageExt.Common;
 
-namespace Wst.Tools.PosiBridge.Persistence;
+namespace Net.Kidd.Habitizer.Persistence;
 
 public static class PersistenceErrors
 {

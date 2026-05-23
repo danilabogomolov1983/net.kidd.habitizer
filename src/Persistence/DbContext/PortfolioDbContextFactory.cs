@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
-namespace Wst.Tools.PosiBridge.Persistence.DbContext;
+namespace Net.Kidd.Habitizer.Persistence.DbContext;
 
 public class PortfolioDbContextFactory : IPortfolioDbContextFactory
 {

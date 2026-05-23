@@ -1,3 +1,3 @@
-namespace Wst.Tools.PosiBridge.Application.Account.Bulk.GetBySources;
+namespace Net.Kidd.Habitizer.Application.Account.Bulk.GetBySources;
 
 public sealed record Command(IReadOnlyList<Domain.Source.Source> Sources);

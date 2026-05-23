@@ -1,21 +1,21 @@
 using LanguageExt;
 using Microsoft.Extensions.Logging;
 using System.Collections.Immutable;
-using AccountBulkAddMissing = Wst.Tools.PosiBridge.Application.Account.Bulk.AddMissing;
-using AccountBulkGetBySourceAndNames = Wst.Tools.PosiBridge.Application.Account.Bulk.GetBySourceAndNames;
-using AccountBulkUpdate = Wst.Tools.PosiBridge.Application.Account.Bulk.Update;
-using InstrumentBulkAddMissing = Wst.Tools.PosiBridge.Application.Instrument.Bulk.AddMissing;
-using PositionBulkAddMissing = Wst.Tools.PosiBridge.Application.Position.Bulk.AddMissing;
-using PositionBulkDeleteBySource = Wst.Tools.PosiBridge.Application.Position.Bulk.DeleteBySource;
-using SourceBulkAddMissing = Wst.Tools.PosiBridge.Application.Source.Bulk.AddMissing;
-using DomainAccount = Wst.Tools.PosiBridge.Domain.Account.Account;
-using DomainSource = Wst.Tools.PosiBridge.Domain.Source.Source;
-using Wst.Tools.PosiBridge.Domain.Account;
-using Wst.Tools.PosiBridge.Domain.Snapshot;
-using Wst.Tools.PosiBridge.Domain.Source;
-using Wst.Tools.PosiBridge.Shared.Kernel.Functional;
+using AccountBulkAddMissing = Net.Kidd.Habitizer.Application.Account.Bulk.AddMissing;
+using AccountBulkGetBySourceAndNames = Net.Kidd.Habitizer.Application.Account.Bulk.GetBySourceAndNames;
+using AccountBulkUpdate = Net.Kidd.Habitizer.Application.Account.Bulk.Update;
+using InstrumentBulkAddMissing = Net.Kidd.Habitizer.Application.Instrument.Bulk.AddMissing;
+using PositionBulkAddMissing = Net.Kidd.Habitizer.Application.Position.Bulk.AddMissing;
+using PositionBulkDeleteBySource = Net.Kidd.Habitizer.Application.Position.Bulk.DeleteBySource;
+using SourceBulkAddMissing = Net.Kidd.Habitizer.Application.Source.Bulk.AddMissing;
+using DomainAccount = Net.Kidd.Habitizer.Domain.Account.Account;
+using DomainSource = Net.Kidd.Habitizer.Domain.Source.Source;
+using Net.Kidd.Habitizer.Domain.Account;
+using Net.Kidd.Habitizer.Domain.Snapshot;
+using Net.Kidd.Habitizer.Domain.Source;
+using Net.Kidd.Habitizer.Shared.Kernel.Functional;
 
-namespace Wst.Tools.PosiBridge.Application.Snapshot.Merge;
+namespace Net.Kidd.Habitizer.Application.Snapshot.Merge;
 
 public class Service(
     SourceBulkAddMissing.Service sourceAddMissingService,

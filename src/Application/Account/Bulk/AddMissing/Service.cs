@@ -1,9 +1,9 @@
 using LanguageExt;
 using System.Collections.Immutable;
-using Wst.Tools.PosiBridge.Domain.Account;
-using Wst.Tools.PosiBridge.Shared.Kernel.Functional;
+using Net.Kidd.Habitizer.Domain.Account;
+using Net.Kidd.Habitizer.Shared.Kernel.Functional;
 
-namespace Wst.Tools.PosiBridge.Application.Account.Bulk.AddMissing;
+namespace Net.Kidd.Habitizer.Application.Account.Bulk.AddMissing;
 
 public class Service(IBulkStore bulkStore)
 {

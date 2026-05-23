@@ -1,5 +1,5 @@
-using Wst.Tools.PosiBridge.Domain.ValueObjects;
+using Net.Kidd.Habitizer.Domain.ValueObjects;
 
-namespace Wst.Tools.PosiBridge.Application.Account.Bulk.GetBySourceAndNames;
+namespace Net.Kidd.Habitizer.Application.Account.Bulk.GetBySourceAndNames;
 
 public sealed record Command(SourceName SourceName, IReadOnlyList<AccountName> AccountNames);

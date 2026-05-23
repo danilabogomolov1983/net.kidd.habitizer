@@ -11,7 +11,7 @@ VERSION="${1}"
 SCRIPT_DIR="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
 REPO_DIR="$(CDPATH= cd -- "${SCRIPT_DIR}/.." && pwd)"
 
-SYNCDAEMON_IMAGE_TAG="wst-tools-posibridge-syncdaemon:${VERSION}"
+SYNCDAEMON_IMAGE_TAG="net-kidd-habitizer-syncdaemon:${VERSION}"
 
 docker build \
   -t "${SYNCDAEMON_IMAGE_TAG}" \

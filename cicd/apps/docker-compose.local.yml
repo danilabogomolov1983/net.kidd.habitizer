@@ -1,27 +1,27 @@
-name: wst-tools-posibridge
+name: net-kidd-habitizer
 
 services:
   syncdaemon:
     build:
       context: ../..
       dockerfile: cicd/apps/Dockerfile.syncdaemon
-    image: wst-tools-posibridge-syncdaemon:latest
+    image: net-kidd-habitizer-syncdaemon:latest
     env_file:
       - .env.local
     networks:
-      - posibridge-network
+      - habitizer-network
       - mssql-network
     volumes:
-      - wst-tools-posibridge-syncdaemon-logs:/app/publish/logs
+      - net-kidd-habitizer-syncdaemon-logs:/app/publish/logs
     restart: unless-stopped
 
 networks:
-  posibridge-network:
-    name: posibridge-network
+  habitizer-network:
+    name: habitizer-network
   mssql-network:
     name: mssql-network
     external: true
 
 volumes:
-  wst-tools-posibridge-syncdaemon-logs:
-    name: wst-tools-posibridge-syncdaemon-logs
+  net-kidd-habitizer-syncdaemon-logs:
+    name: net-kidd-habitizer-syncdaemon-logs

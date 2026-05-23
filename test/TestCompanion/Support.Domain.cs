@@ -1,6 +1,6 @@
-using Wst.Tools.PosiBridge.Domain.ValueObjects;
+using Net.Kidd.Habitizer.Domain.ValueObjects;
 
-namespace Wst.Tools.PosiBridge.TestCompanion;
+namespace Net.Kidd.Habitizer.TestCompanion;
 
 public static partial class Support
 {

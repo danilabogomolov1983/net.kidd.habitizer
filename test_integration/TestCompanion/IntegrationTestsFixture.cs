@@ -3,12 +3,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Serilog;
 using Testcontainers.MsSql;
-using Wst.Tools.PosiBridge.Application;
-using Wst.Tools.PosiBridge.Persistence;
-using Wst.Tools.PosiBridge.TickTs;
-using Wst.Tools.PosiBridge.Tradix;
+using Net.Kidd.Habitizer.Application;
+using Net.Kidd.Habitizer.Persistence;
+using Net.Kidd.Habitizer.TickTs;
+using Net.Kidd.Habitizer.Tradix;
 
-namespace Wst.Tools.PosiBridge.TestCompanion;
+namespace Net.Kidd.Habitizer.TestCompanion;
 
 public sealed class IntegrationTestsFixture : IAsyncLifetime
 {

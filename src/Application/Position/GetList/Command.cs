@@ -1,4 +1,4 @@
-namespace Wst.Tools.PosiBridge.Application.Position.GetList;
+namespace Net.Kidd.Habitizer.Application.Position.GetList;
 
 public sealed record Command(int PageNumber, int PageSize);
 

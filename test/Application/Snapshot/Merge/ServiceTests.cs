@@ -1,15 +1,15 @@
 using LanguageExt.UnsafeValueAccess;
 using Microsoft.Extensions.Logging.Abstractions;
 using Microsoft.Extensions.Time.Testing;
-using Wst.Tools.PosiBridge.Domain.Account;
-using Wst.Tools.PosiBridge.Domain.Snapshot;
-using Wst.Tools.PosiBridge.Domain.Source;
-using Wst.Tools.PosiBridge.TestCompanion;
+using Net.Kidd.Habitizer.Domain.Account;
+using Net.Kidd.Habitizer.Domain.Snapshot;
+using Net.Kidd.Habitizer.Domain.Source;
+using Net.Kidd.Habitizer.TestCompanion;
 
-using MergeSnapshot = Wst.Tools.PosiBridge.Application.Snapshot.Merge;
-using GetPosition = Wst.Tools.PosiBridge.Application.Position.Get;
+using MergeSnapshot = Net.Kidd.Habitizer.Application.Snapshot.Merge;
+using GetPosition = Net.Kidd.Habitizer.Application.Position.Get;
 
-namespace Wst.Tools.PosiBridge.Application.Test.Snapshot.Merge;
+namespace Net.Kidd.Habitizer.Application.Test.Snapshot.Merge;
 
 
 

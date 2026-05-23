@@ -1,7 +1,7 @@
 using Microsoft.Extensions.DependencyInjection;
-using Wst.Tools.PosiBridge.Domain.Snapshot;
+using Net.Kidd.Habitizer.Domain.Snapshot;
 
-namespace Wst.Tools.PosiBridge.Application.Snapshot;
+namespace Net.Kidd.Habitizer.Application.Snapshot;
 
 public sealed class PortfolioSnapshotProviderFactory(IServiceProvider serviceProvider)
 {

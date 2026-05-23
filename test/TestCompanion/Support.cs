@@ -1,6 +1,6 @@
 using LanguageExt.Common;
 
-namespace Wst.Tools.PosiBridge.TestCompanion;
+namespace Net.Kidd.Habitizer.TestCompanion;
 
 public static partial class Support
 {

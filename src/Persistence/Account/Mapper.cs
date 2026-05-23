@@ -1,8 +1,8 @@
-using Wst.Tools.PosiBridge.Domain.ValueObjects;
-using Wst.Tools.PosiBridge.Shared.Kernel;
-using AccountId = Wst.Tools.PosiBridge.Domain.Account.AccountId;
+using Net.Kidd.Habitizer.Domain.ValueObjects;
+using Net.Kidd.Habitizer.Shared.Kernel;
+using AccountId = Net.Kidd.Habitizer.Domain.Account.AccountId;
 
-namespace Wst.Tools.PosiBridge.Persistence.Account;
+namespace Net.Kidd.Habitizer.Persistence.Account;
 
 public struct Mapper : IMap<Domain.Account.Account, AccountDbo>
 {

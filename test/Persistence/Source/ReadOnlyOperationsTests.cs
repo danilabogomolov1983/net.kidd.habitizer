@@ -1,9 +1,9 @@
-using Wst.Tools.PosiBridge.Domain.Source;
-using Wst.Tools.PosiBridge.Persistence.Source;
-using Wst.Tools.PosiBridge.TestCompanion;
-using SourceId = Wst.Tools.PosiBridge.Domain.Source.SourceId;
+using Net.Kidd.Habitizer.Domain.Source;
+using Net.Kidd.Habitizer.Persistence.Source;
+using Net.Kidd.Habitizer.TestCompanion;
+using SourceId = Net.Kidd.Habitizer.Domain.Source.SourceId;
 
-namespace Wst.Tools.PosiBridge.Persistence.Test.Source;
+namespace Net.Kidd.Habitizer.Persistence.Test.Source;
 
 public class ReadOnlyOperationsTests(InMemoryFixture fixture) : IClassFixture<InMemoryFixture>
 {

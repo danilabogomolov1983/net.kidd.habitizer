@@ -2,9 +2,9 @@ using LanguageExt;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Collections.Immutable;
-using Wst.Tools.PosiBridge.Domain.ValueObjects;
+using Net.Kidd.Habitizer.Domain.ValueObjects;
 
-namespace Wst.Tools.PosiBridge.Persistence.Account;
+namespace Net.Kidd.Habitizer.Persistence.Account;
 
 public class BulkStore(IPortfolioDbContextFactory dbContextFactory) : Domain.Account.IBulkStore
 {

@@ -1,8 +1,8 @@
 using LanguageExt.UnsafeValueAccess;
-using Wst.Tools.PosiBridge.TestCompanion;
-using GetByIsinsInstrument = Wst.Tools.PosiBridge.Application.Instrument.Bulk.GetByIsins;
+using Net.Kidd.Habitizer.TestCompanion;
+using GetByIsinsInstrument = Net.Kidd.Habitizer.Application.Instrument.Bulk.GetByIsins;
 
-namespace Wst.Tools.PosiBridge.Application.IntegrationTest.Instrument.Bulk.GetByIsins;
+namespace Net.Kidd.Habitizer.Application.IntegrationTest.Instrument.Bulk.GetByIsins;
 
 [Collection("IntegrationTests")]
 public class ServiceTests(IntegrationTestsFixture fixture)

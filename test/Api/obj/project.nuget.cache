@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gG1aJMq97yg=",
+  "dgSpecHash": "bGTFz9h44nA=",
   "success": true,
-  "projectFilePath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/test/Api/Wst.Tools.PosiBridge.Api.Test.csproj",
+  "projectFilePath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/test/Api/Net.Kidd.Habitizer.Api.Test.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

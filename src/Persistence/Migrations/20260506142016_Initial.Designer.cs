@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Wst.Tools.PosiBridge.Persistence.DbContext;
+using Net.Kidd.Habitizer.Persistence.DbContext;
 
 #nullable disable
 
-namespace Wst.Tools.PosiBridge.Persistence.Migrations
+namespace Net.Kidd.Habitizer.Persistence.Migrations
 {
     [DbContext(typeof(PortfolioDbContext))]
     [Migration("20260506142016_Initial")]
@@ -26,7 +26,7 @@ namespace Wst.Tools.PosiBridge.Persistence.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Wst.Tools.PosiBridge.Persistence.Account.AccountDbo", b =>
+            modelBuilder.Entity("Net.Kidd.Habitizer.Persistence.Account.AccountDbo", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -50,7 +50,7 @@ namespace Wst.Tools.PosiBridge.Persistence.Migrations
                     b.ToTable("Accounts", "portfolio");
                 });
 
-            modelBuilder.Entity("Wst.Tools.PosiBridge.Persistence.Instrument.InstrumentDbo", b =>
+            modelBuilder.Entity("Net.Kidd.Habitizer.Persistence.Instrument.InstrumentDbo", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -68,7 +68,7 @@ namespace Wst.Tools.PosiBridge.Persistence.Migrations
                     b.ToTable("Instruments", "portfolio");
                 });
 
-            modelBuilder.Entity("Wst.Tools.PosiBridge.Persistence.Position.PositionDbo", b =>
+            modelBuilder.Entity("Net.Kidd.Habitizer.Persistence.Position.PositionDbo", b =>
                 {
                     b.Property<Guid>("AccountId")
                         .HasColumnType("uniqueidentifier");
@@ -112,7 +112,7 @@ namespace Wst.Tools.PosiBridge.Persistence.Migrations
                     b.ToTable("Positions", "portfolio");
                 });
 
-            modelBuilder.Entity("Wst.Tools.PosiBridge.Persistence.Source.SourceDbo", b =>
+            modelBuilder.Entity("Net.Kidd.Habitizer.Persistence.Source.SourceDbo", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -130,9 +130,9 @@ namespace Wst.Tools.PosiBridge.Persistence.Migrations
                     b.ToTable("Sources", "portfolio");
                 });
 
-            modelBuilder.Entity("Wst.Tools.PosiBridge.Persistence.Account.AccountDbo", b =>
+            modelBuilder.Entity("Net.Kidd.Habitizer.Persistence.Account.AccountDbo", b =>
                 {
-                    b.HasOne("Wst.Tools.PosiBridge.Persistence.Source.SourceDbo", "Source")
+                    b.HasOne("Net.Kidd.Habitizer.Persistence.Source.SourceDbo", "Source")
                         .WithMany("Accounts")
                         .HasForeignKey("SourceId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -141,15 +141,15 @@ namespace Wst.Tools.PosiBridge.Persistence.Migrations
                     b.Navigation("Source");
                 });
 
-            modelBuilder.Entity("Wst.Tools.PosiBridge.Persistence.Position.PositionDbo", b =>
+            modelBuilder.Entity("Net.Kidd.Habitizer.Persistence.Position.PositionDbo", b =>
                 {
-                    b.HasOne("Wst.Tools.PosiBridge.Persistence.Account.AccountDbo", "Account")
+                    b.HasOne("Net.Kidd.Habitizer.Persistence.Account.AccountDbo", "Account")
                         .WithMany("Positions")
                         .HasForeignKey("AccountId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Wst.Tools.PosiBridge.Persistence.Instrument.InstrumentDbo", "Instrument")
+                    b.HasOne("Net.Kidd.Habitizer.Persistence.Instrument.InstrumentDbo", "Instrument")
                         .WithMany()
                         .HasForeignKey("InstrumentId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -160,12 +160,12 @@ namespace Wst.Tools.PosiBridge.Persistence.Migrations
                     b.Navigation("Instrument");
                 });
 
-            modelBuilder.Entity("Wst.Tools.PosiBridge.Persistence.Account.AccountDbo", b =>
+            modelBuilder.Entity("Net.Kidd.Habitizer.Persistence.Account.AccountDbo", b =>
                 {
                     b.Navigation("Positions");
                 });
 
-            modelBuilder.Entity("Wst.Tools.PosiBridge.Persistence.Source.SourceDbo", b =>
+            modelBuilder.Entity("Net.Kidd.Habitizer.Persistence.Source.SourceDbo", b =>
                 {
                     b.Navigation("Accounts");
                 });

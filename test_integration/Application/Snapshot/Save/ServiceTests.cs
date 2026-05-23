@@ -1,12 +1,12 @@
 using LanguageExt.UnsafeValueAccess;
-using Wst.Tools.PosiBridge.Domain.Account;
-using Wst.Tools.PosiBridge.Domain.Snapshot;
-using Wst.Tools.PosiBridge.Domain.Source;
-using Wst.Tools.PosiBridge.TestCompanion;
-using GetPosition = Wst.Tools.PosiBridge.Application.Position.Get;
-using SaveSnapshot = Wst.Tools.PosiBridge.Application.Snapshot.Save;
+using Net.Kidd.Habitizer.Domain.Account;
+using Net.Kidd.Habitizer.Domain.Snapshot;
+using Net.Kidd.Habitizer.Domain.Source;
+using Net.Kidd.Habitizer.TestCompanion;
+using GetPosition = Net.Kidd.Habitizer.Application.Position.Get;
+using SaveSnapshot = Net.Kidd.Habitizer.Application.Snapshot.Save;
 
-namespace Wst.Tools.PosiBridge.Application.IntegrationTest.Snapshot.Save;
+namespace Net.Kidd.Habitizer.Application.IntegrationTest.Snapshot.Save;
 
 [Collection("IntegrationTests")]
 public class ServiceTests(IntegrationTestsFixture fixture)

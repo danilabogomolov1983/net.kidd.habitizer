@@ -1,9 +1,9 @@
 using LanguageExt.UnsafeValueAccess;
-using Wst.Tools.PosiBridge.TestCompanion;
-using InstrumentAddMissing = Wst.Tools.PosiBridge.Application.Instrument.Bulk.AddMissing;
-using GetByIsinsInstrument = Wst.Tools.PosiBridge.Application.Instrument.Bulk.GetByIsins;
+using Net.Kidd.Habitizer.TestCompanion;
+using InstrumentAddMissing = Net.Kidd.Habitizer.Application.Instrument.Bulk.AddMissing;
+using GetByIsinsInstrument = Net.Kidd.Habitizer.Application.Instrument.Bulk.GetByIsins;
 
-namespace Wst.Tools.PosiBridge.Application.IntegrationTest.Instrument.Bulk.AddMissing;
+namespace Net.Kidd.Habitizer.Application.IntegrationTest.Instrument.Bulk.AddMissing;
 
 [Collection("IntegrationTests")]
 public class ServiceTests(IntegrationTestsFixture fixture)

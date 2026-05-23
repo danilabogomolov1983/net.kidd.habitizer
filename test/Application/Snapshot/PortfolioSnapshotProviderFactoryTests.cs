@@ -1,9 +1,9 @@
 using FakeItEasy;
 using Microsoft.Extensions.DependencyInjection;
-using Wst.Tools.PosiBridge.Application.Snapshot;
-using Wst.Tools.PosiBridge.Domain.Snapshot;
+using Net.Kidd.Habitizer.Application.Snapshot;
+using Net.Kidd.Habitizer.Domain.Snapshot;
 
-namespace Wst.Tools.PosiBridge.Application.Test.Snapshot;
+namespace Net.Kidd.Habitizer.Application.Test.Snapshot;
 
 public class PortfolioSnapshotProviderFactoryTests
 {

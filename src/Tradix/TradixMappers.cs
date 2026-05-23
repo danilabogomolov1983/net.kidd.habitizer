@@ -1,4 +1,4 @@
-namespace Wst.Tools.PosiBridge.Tradix;
+namespace Net.Kidd.Habitizer.Tradix;
 
 public static class TradixMappers
 {

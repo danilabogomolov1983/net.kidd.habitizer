@@ -1,13 +1,13 @@
 using LanguageExt.UnsafeValueAccess;
-using Wst.Tools.PosiBridge.Domain.Account;
-using Wst.Tools.PosiBridge.Persistence.Account;
-using Wst.Tools.PosiBridge.TestCompanion;
-using GetAccount = Wst.Tools.PosiBridge.Application.Account.Get;
-using PutAccount = Wst.Tools.PosiBridge.Application.Account.Put;
-using GetSource = Wst.Tools.PosiBridge.Application.Source.Get;
-using PostSource = Wst.Tools.PosiBridge.Application.Source.Post;
+using Net.Kidd.Habitizer.Domain.Account;
+using Net.Kidd.Habitizer.Persistence.Account;
+using Net.Kidd.Habitizer.TestCompanion;
+using GetAccount = Net.Kidd.Habitizer.Application.Account.Get;
+using PutAccount = Net.Kidd.Habitizer.Application.Account.Put;
+using GetSource = Net.Kidd.Habitizer.Application.Source.Get;
+using PostSource = Net.Kidd.Habitizer.Application.Source.Post;
 
-namespace Wst.Tools.PosiBridge.Application.Test.Account.Put;
+namespace Net.Kidd.Habitizer.Application.Test.Account.Put;
 
 public class ServiceTests(InMemoryFixture fixture) : IClassFixture<InMemoryFixture>
 {

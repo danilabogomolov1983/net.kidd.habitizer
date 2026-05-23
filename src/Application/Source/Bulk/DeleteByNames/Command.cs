@@ -1,5 +1,5 @@
-using Wst.Tools.PosiBridge.Domain.ValueObjects;
+using Net.Kidd.Habitizer.Domain.ValueObjects;
 
-namespace Wst.Tools.PosiBridge.Application.Source.Bulk.DeleteByNames;
+namespace Net.Kidd.Habitizer.Application.Source.Bulk.DeleteByNames;
 
 public sealed record Command(IReadOnlyList<SourceName> SourceNames);

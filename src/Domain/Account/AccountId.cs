@@ -1,4 +1,4 @@
-namespace Wst.Tools.PosiBridge.Domain.Account;
+namespace Net.Kidd.Habitizer.Domain.Account;
 
 public record AccountId(Guid Value)
 {

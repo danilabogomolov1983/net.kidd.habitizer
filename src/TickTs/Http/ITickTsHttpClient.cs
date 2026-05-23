@@ -1,6 +1,6 @@
 using LanguageExt;
 
-namespace Wst.Tools.PosiBridge.TickTs.Http;
+namespace Net.Kidd.Habitizer.TickTs.Http;
 
 public interface ITickTsHttpClient
 {

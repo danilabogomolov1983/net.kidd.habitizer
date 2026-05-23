@@ -1,9 +1,9 @@
 using LanguageExt;
-using Wst.Tools.PosiBridge.Domain.Instrument;
-using Wst.Tools.PosiBridge.Domain.ValueObjects;
-using Wst.Tools.PosiBridge.Shared.Kernel.Functional;
+using Net.Kidd.Habitizer.Domain.Instrument;
+using Net.Kidd.Habitizer.Domain.ValueObjects;
+using Net.Kidd.Habitizer.Shared.Kernel.Functional;
 
-namespace Wst.Tools.PosiBridge.Application.Instrument.Post;
+namespace Net.Kidd.Habitizer.Application.Instrument.Post;
 
 public class Service(IPersistenceStore persistenceStore)
 {

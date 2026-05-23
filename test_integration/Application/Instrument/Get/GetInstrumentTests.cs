@@ -1,9 +1,9 @@
 using LanguageExt.UnsafeValueAccess;
-using Wst.Tools.PosiBridge.TestCompanion;
-using PostInstrument = Wst.Tools.PosiBridge.Application.Instrument.Post;
-using GetInstrument = Wst.Tools.PosiBridge.Application.Instrument.Get;
+using Net.Kidd.Habitizer.TestCompanion;
+using PostInstrument = Net.Kidd.Habitizer.Application.Instrument.Post;
+using GetInstrument = Net.Kidd.Habitizer.Application.Instrument.Get;
 
-namespace Wst.Tools.PosiBridge.Application.IntegrationTest.Instrument.Get;
+namespace Net.Kidd.Habitizer.Application.IntegrationTest.Instrument.Get;
 
 [Collection("IntegrationTests")]
 public class GetInstrumentTests(IntegrationTestsFixture fixture)

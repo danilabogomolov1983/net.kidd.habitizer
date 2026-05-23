@@ -1,10 +1,10 @@
 using LanguageExt;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Immutable;
-using Wst.Tools.PosiBridge.Domain.Position;
-using Wst.Tools.PosiBridge.Shared.Kernel.Functional;
+using Net.Kidd.Habitizer.Domain.Position;
+using Net.Kidd.Habitizer.Shared.Kernel.Functional;
 
-namespace Wst.Tools.PosiBridge.Persistence.Position;
+namespace Net.Kidd.Habitizer.Persistence.Position;
 
 public class BulkStore(IPortfolioDbContextFactory dbContextFactory) : IBulkStore
 {

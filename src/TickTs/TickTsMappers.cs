@@ -1,4 +1,4 @@
-namespace Wst.Tools.PosiBridge.TickTs;
+namespace Net.Kidd.Habitizer.TickTs;
 
 public static class TickTsMappers
 {

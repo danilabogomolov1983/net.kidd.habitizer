@@ -1,10 +1,10 @@
-using Wst.Tools.PosiBridge.Domain.Account;
-using Wst.Tools.PosiBridge.Persistence.Account;
-using Wst.Tools.PosiBridge.TestCompanion;
-using static Wst.Tools.PosiBridge.Domain.Position.Extensions;
-using static Wst.Tools.PosiBridge.Domain.Source.Extensions;
+using Net.Kidd.Habitizer.Domain.Account;
+using Net.Kidd.Habitizer.Persistence.Account;
+using Net.Kidd.Habitizer.TestCompanion;
+using static Net.Kidd.Habitizer.Domain.Position.Extensions;
+using static Net.Kidd.Habitizer.Domain.Source.Extensions;
 
-namespace Wst.Tools.PosiBridge.Persistence.Test.Account;
+namespace Net.Kidd.Habitizer.Persistence.Test.Account;
 
 public class BulkOperationsTests(InMemoryFixture fixture) : IClassFixture<InMemoryFixture>
 {

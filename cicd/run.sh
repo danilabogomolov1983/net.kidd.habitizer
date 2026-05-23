@@ -9,8 +9,8 @@ if [ $# -lt 1 ] || [ -z "${1}" ]; then
 fi
 
 VERSION="${1}"
-SYNCDAEMON_IMAGE_TAG="wst-tools-posibridge-syncdaemon:${VERSION}"
-SYNCDAEMON_TAR_FILE="${SCRIPT_DIR}/wst-tools-posibridge-syncdaemon-${VERSION}.tar"
+SYNCDAEMON_IMAGE_TAG="net-kidd-habitizer-syncdaemon:${VERSION}"
+SYNCDAEMON_TAR_FILE="${SCRIPT_DIR}/net-kidd-habitizer-syncdaemon-${VERSION}.tar"
 COMPOSE_FILE="${SCRIPT_DIR}/docker-compose.yml"
 ENV_FILE="${SCRIPT_DIR}/.env"
 

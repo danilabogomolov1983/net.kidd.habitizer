@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System.Reflection;
 using System.Runtime.Serialization;
 
-namespace Wst.Tools.PosiBridge.Persistence;
+namespace Net.Kidd.Habitizer.Persistence;
 
 public static class EnumUtil
 {

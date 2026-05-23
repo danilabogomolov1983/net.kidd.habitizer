@@ -1,9 +1,9 @@
 using LanguageExt.UnsafeValueAccess;
-using Wst.Tools.PosiBridge.Application.Snapshot;
-using Wst.Tools.PosiBridge.Domain.Snapshot;
-using Wst.Tools.PosiBridge.Domain.Source;
+using Net.Kidd.Habitizer.Application.Snapshot;
+using Net.Kidd.Habitizer.Domain.Snapshot;
+using Net.Kidd.Habitizer.Domain.Source;
 
-namespace Wst.Tools.PosiBridge.Tradix.IntegrationTest.Snapshot;
+namespace Net.Kidd.Habitizer.Tradix.IntegrationTest.Snapshot;
 
 public class SnapshotProviderTests(TradixFixture fixture) : IClassFixture<TradixFixture>
 {

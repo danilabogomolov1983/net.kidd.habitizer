@@ -1,10 +1,10 @@
 using LanguageExt.UnsafeValueAccess;
-using Wst.Tools.PosiBridge.TestCompanion;
-using AccountGetByIds = Wst.Tools.PosiBridge.Application.Account.Bulk.GetByIds;
-using SourceAddMissing = Wst.Tools.PosiBridge.Application.Source.Bulk.AddMissing;
-using AccountAddMissing = Wst.Tools.PosiBridge.Application.Account.Bulk.AddMissing;
+using Net.Kidd.Habitizer.TestCompanion;
+using AccountGetByIds = Net.Kidd.Habitizer.Application.Account.Bulk.GetByIds;
+using SourceAddMissing = Net.Kidd.Habitizer.Application.Source.Bulk.AddMissing;
+using AccountAddMissing = Net.Kidd.Habitizer.Application.Account.Bulk.AddMissing;
 
-namespace Wst.Tools.PosiBridge.Application.IntegrationTest.Account.Bulk.GetByIds;
+namespace Net.Kidd.Habitizer.Application.IntegrationTest.Account.Bulk.GetByIds;
 
 [Collection("IntegrationTests")]
 public class ServiceTests(IntegrationTestsFixture fixture)

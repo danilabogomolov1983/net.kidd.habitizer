@@ -1,4 +1,4 @@
-namespace Wst.Tools.PosiBridge.Domain.Position.ReferencePrice;
+namespace Net.Kidd.Habitizer.Domain.Position.ReferencePrice;
 
 public sealed record ReferencePrice(
     decimal? Price,

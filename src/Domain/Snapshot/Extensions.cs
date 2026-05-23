@@ -1,9 +1,9 @@
 using System.Collections.Immutable;
 using System.Reflection;
 using System.Runtime.Serialization;
-using Wst.Tools.PosiBridge.Domain.ValueObjects;
+using Net.Kidd.Habitizer.Domain.ValueObjects;
 
-namespace Wst.Tools.PosiBridge.Domain.Snapshot;
+namespace Net.Kidd.Habitizer.Domain.Snapshot;
 
 public static class SnapshotExtensions
 {

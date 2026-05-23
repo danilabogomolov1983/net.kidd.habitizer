@@ -1,8 +1,8 @@
     using LanguageExt.UnsafeValueAccess;
-using Wst.Tools.PosiBridge.Application.Snapshot;
-using Wst.Tools.PosiBridge.Domain.Account;
+using Net.Kidd.Habitizer.Application.Snapshot;
+using Net.Kidd.Habitizer.Domain.Account;
 
-namespace Wst.Tools.PosiBridge.TickTs.IntegrationTest.Snapshot;
+namespace Net.Kidd.Habitizer.TickTs.IntegrationTest.Snapshot;
 
 [Collection("IntegrationTests")]
 public class SnapshotProviderTests(TickTsFixture fixture, ITestOutputHelper output)

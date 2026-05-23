@@ -3,13 +3,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
-using Wst.Tools.PosiBridge.Application.Snapshot;
-using Wst.Tools.PosiBridge.Domain.Snapshot;
-using Wst.Tools.PosiBridge.Tradix.Configuration;
-using Wst.Tools.PosiBridge.Tradix.Snapshot;
-using Wst.Tools.PosiBridge.Shared.Kernel.Validation;
+using Net.Kidd.Habitizer.Application.Snapshot;
+using Net.Kidd.Habitizer.Domain.Snapshot;
+using Net.Kidd.Habitizer.Tradix.Configuration;
+using Net.Kidd.Habitizer.Tradix.Snapshot;
+using Net.Kidd.Habitizer.Shared.Kernel.Validation;
 
-namespace Wst.Tools.PosiBridge.Tradix;
+namespace Net.Kidd.Habitizer.Tradix;
 
 public static class ServiceCollectionExtensions
 {

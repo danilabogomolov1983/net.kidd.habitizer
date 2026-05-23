@@ -2,7 +2,7 @@ using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
-namespace Wst.Tools.PosiBridge.Shared.Kernel.Validation;
+namespace Net.Kidd.Habitizer.Shared.Kernel.Validation;
 
 public class FluentValidateOptions<TOptions>(IServiceProvider serviceProvider, string? optionsName)
     : IValidateOptions<TOptions>

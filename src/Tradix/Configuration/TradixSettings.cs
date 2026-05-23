@@ -1,4 +1,4 @@
-namespace Wst.Tools.PosiBridge.Tradix.Configuration;
+namespace Net.Kidd.Habitizer.Tradix.Configuration;
 
 public class TradixSettings
 {

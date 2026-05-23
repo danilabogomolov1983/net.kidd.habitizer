@@ -1,3 +1,3 @@
-namespace Wst.Tools.PosiBridge.Application.Snapshot.Merge;
+namespace Net.Kidd.Habitizer.Application.Snapshot.Merge;
 
 public sealed record Command(Domain.Snapshot.Snapshot Snapshot);

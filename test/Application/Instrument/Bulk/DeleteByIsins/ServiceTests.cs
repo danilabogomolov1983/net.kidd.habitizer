@@ -1,10 +1,10 @@
-using Wst.Tools.PosiBridge.Persistence.Instrument;
-using Wst.Tools.PosiBridge.TestCompanion;
-using DeleteByIsinsInstrument = Wst.Tools.PosiBridge.Application.Instrument.Bulk.DeleteByIsins;
-using GetByIsinsInstrument = Wst.Tools.PosiBridge.Application.Instrument.Bulk.GetByIsins;
-using InstrumentAddMissing = Wst.Tools.PosiBridge.Application.Instrument.Bulk.AddMissing;
+using Net.Kidd.Habitizer.Persistence.Instrument;
+using Net.Kidd.Habitizer.TestCompanion;
+using DeleteByIsinsInstrument = Net.Kidd.Habitizer.Application.Instrument.Bulk.DeleteByIsins;
+using GetByIsinsInstrument = Net.Kidd.Habitizer.Application.Instrument.Bulk.GetByIsins;
+using InstrumentAddMissing = Net.Kidd.Habitizer.Application.Instrument.Bulk.AddMissing;
 
-namespace Wst.Tools.PosiBridge.Application.Test.Instrument.Bulk.DeleteByIsins;
+namespace Net.Kidd.Habitizer.Application.Test.Instrument.Bulk.DeleteByIsins;
 
 public class ServiceTests(InMemoryFixture fixture) : IClassFixture<InMemoryFixture>
 {

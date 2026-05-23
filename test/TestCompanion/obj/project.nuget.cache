@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RNgi0qzh2AE=",
+  "dgSpecHash": "RA51xxTVEAU=",
   "success": true,
-  "projectFilePath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/test/TestCompanion/Wst.Tools.PosiBridge.TestCompanion.csproj",
+  "projectFilePath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/test/TestCompanion/Net.Kidd.Habitizer.TestCompanion.csproj",
   "expectedPackageFiles": [
     "/home/danila/.nuget/packages/azure.core/1.47.1/azure.core.1.47.1.nupkg.sha512",
     "/home/danila/.nuget/packages/azure.identity/1.14.2/azure.identity.1.14.2.nupkg.sha512",

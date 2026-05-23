@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Wst.Tools.PosiBridge.Persistence.Source;
+namespace Net.Kidd.Habitizer.Persistence.Source;
 
 public class Configuration : IEntityTypeConfiguration<SourceDbo>
 {

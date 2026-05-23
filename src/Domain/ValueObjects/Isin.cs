@@ -1,4 +1,4 @@
-namespace Wst.Tools.PosiBridge.Domain.ValueObjects;
+namespace Net.Kidd.Habitizer.Domain.ValueObjects;
 
 public record Isin(string Value)
 {

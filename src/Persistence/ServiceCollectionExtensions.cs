@@ -2,9 +2,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
-using Wst.Tools.PosiBridge.Persistence.DbContext;
+using Net.Kidd.Habitizer.Persistence.DbContext;
 
-namespace Wst.Tools.PosiBridge.Persistence;
+namespace Net.Kidd.Habitizer.Persistence;
 
 public static class ServiceCollectionExtensions
 {

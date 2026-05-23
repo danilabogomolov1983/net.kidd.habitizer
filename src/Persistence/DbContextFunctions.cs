@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace Wst.Tools.PosiBridge.Persistence;
+namespace Net.Kidd.Habitizer.Persistence;
 
 public static class DbContextFunctions
 {

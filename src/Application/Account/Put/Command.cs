@@ -1,6 +1,6 @@
-using Wst.Tools.PosiBridge.Domain.ValueObjects;
+using Net.Kidd.Habitizer.Domain.ValueObjects;
 
-namespace Wst.Tools.PosiBridge.Application.Account.Put;
+namespace Net.Kidd.Habitizer.Application.Account.Put;
 
 public sealed record Command(
     SourceName SourceName,

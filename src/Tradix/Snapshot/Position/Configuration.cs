@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Wst.Tools.PosiBridge.Tradix.Snapshot.Position;
+namespace Net.Kidd.Habitizer.Tradix.Snapshot.Position;
 
 public class Configuration : IEntityTypeConfiguration<PositionDbo>
 {

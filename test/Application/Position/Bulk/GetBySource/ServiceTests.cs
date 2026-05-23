@@ -1,13 +1,13 @@
 using LanguageExt.UnsafeValueAccess;
-using Wst.Tools.PosiBridge.TestCompanion;
-using PositionAddMissing = Wst.Tools.PosiBridge.Application.Position.Bulk.AddMissing;
-using AccountAddMissing = Wst.Tools.PosiBridge.Application.Account.Bulk.AddMissing;
-using InstrumentAddMissing = Wst.Tools.PosiBridge.Application.Instrument.Bulk.AddMissing;
-using SourceAddMissing = Wst.Tools.PosiBridge.Application.Source.Bulk.AddMissing;
-using GetBySourcePosition = Wst.Tools.PosiBridge.Application.Position.Bulk.GetBySource;
-using GetByNamesSource = Wst.Tools.PosiBridge.Application.Source.Bulk.GetByNames;
+using Net.Kidd.Habitizer.TestCompanion;
+using PositionAddMissing = Net.Kidd.Habitizer.Application.Position.Bulk.AddMissing;
+using AccountAddMissing = Net.Kidd.Habitizer.Application.Account.Bulk.AddMissing;
+using InstrumentAddMissing = Net.Kidd.Habitizer.Application.Instrument.Bulk.AddMissing;
+using SourceAddMissing = Net.Kidd.Habitizer.Application.Source.Bulk.AddMissing;
+using GetBySourcePosition = Net.Kidd.Habitizer.Application.Position.Bulk.GetBySource;
+using GetByNamesSource = Net.Kidd.Habitizer.Application.Source.Bulk.GetByNames;
 
-namespace Wst.Tools.PosiBridge.Application.Test.Position.Bulk.GetBySource;
+namespace Net.Kidd.Habitizer.Application.Test.Position.Bulk.GetBySource;
 
 public class ServiceTests(InMemoryFixture fixture) : IClassFixture<InMemoryFixture>
 {

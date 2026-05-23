@@ -132,7 +132,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Wst.Tools.PosiBridge.Shared.Kernel/1.0.0": {
+      "Net.Kidd.Habitizer.Shared.Kernel/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
@@ -143,10 +143,10 @@
           "Microsoft.Extensions.Options": "10.0.6"
         },
         "compile": {
-          "bin/placeholder/Wst.Tools.PosiBridge.Shared.Kernel.dll": {}
+          "bin/placeholder/Net.Kidd.Habitizer.Shared.Kernel.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Wst.Tools.PosiBridge.Shared.Kernel.dll": {}
+          "bin/placeholder/Net.Kidd.Habitizer.Shared.Kernel.dll": {}
         }
       }
     }
@@ -396,15 +396,15 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Wst.Tools.PosiBridge.Shared.Kernel/1.0.0": {
+    "Net.Kidd.Habitizer.Shared.Kernel/1.0.0": {
       "type": "project",
-      "path": "../Shared.Kernel/Wst.Tools.PosiBridge.Shared.Kernel.csproj",
-      "msbuildProject": "../Shared.Kernel/Wst.Tools.PosiBridge.Shared.Kernel.csproj"
+      "path": "../Shared.Kernel/Net.Kidd.Habitizer.Shared.Kernel.csproj",
+      "msbuildProject": "../Shared.Kernel/Net.Kidd.Habitizer.Shared.Kernel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Wst.Tools.PosiBridge.Shared.Kernel >= 1.0.0"
+      "Net.Kidd.Habitizer.Shared.Kernel >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -413,9 +413,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Domain/Wst.Tools.PosiBridge.Domain.csproj",
-      "projectName": "Wst.Tools.PosiBridge.Domain",
-      "projectPath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Domain/Wst.Tools.PosiBridge.Domain.csproj",
+      "projectUniqueName": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Domain/Net.Kidd.Habitizer.Domain.csproj",
+      "projectName": "Net.Kidd.Habitizer.Domain",
+      "projectPath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Domain/Net.Kidd.Habitizer.Domain.csproj",
       "packagesPath": "/home/danila/.nuget/packages/",
       "outputPath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Domain/obj/",
       "projectStyle": "PackageReference",
@@ -434,8 +434,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Shared.Kernel/Wst.Tools.PosiBridge.Shared.Kernel.csproj": {
-              "projectPath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Shared.Kernel/Wst.Tools.PosiBridge.Shared.Kernel.csproj"
+            "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Shared.Kernel/Net.Kidd.Habitizer.Shared.Kernel.csproj": {
+              "projectPath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Shared.Kernel/Net.Kidd.Habitizer.Shared.Kernel.csproj"
             }
           }
         }

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/test/Api/Wst.Tools.PosiBridge.Api.Test.csproj",
-      "projectName": "Wst.Tools.PosiBridge.Api.Test",
-      "projectPath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/test/Api/Wst.Tools.PosiBridge.Api.Test.csproj",
+      "projectUniqueName": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/test/Api/Net.Kidd.Habitizer.Api.Test.csproj",
+      "projectName": "Net.Kidd.Habitizer.Api.Test",
+      "projectPath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/test/Api/Net.Kidd.Habitizer.Api.Test.csproj",
       "packagesPath": "/home/danila/.nuget/packages/",
       "outputPath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/test/Api/obj/",
       "projectStyle": "PackageReference",

@@ -1,6 +1,6 @@
 using FluentValidation;
 
-namespace Wst.Tools.PosiBridge.Application.Snapshot.Configuration;
+namespace Net.Kidd.Habitizer.Application.Snapshot.Configuration;
 
 public class SyncSettingsValidator : AbstractValidator<SyncSettings>
 {

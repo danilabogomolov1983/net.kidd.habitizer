@@ -1,9 +1,9 @@
 using LanguageExt.UnsafeValueAccess;
-using Wst.Tools.PosiBridge.Domain.Instrument;
-using Wst.Tools.PosiBridge.Persistence.Instrument;
-using Wst.Tools.PosiBridge.TestCompanion;
+using Net.Kidd.Habitizer.Domain.Instrument;
+using Net.Kidd.Habitizer.Persistence.Instrument;
+using Net.Kidd.Habitizer.TestCompanion;
 
-namespace Wst.Tools.PosiBridge.Persistence.Test.Instrument;
+namespace Net.Kidd.Habitizer.Persistence.Test.Instrument;
 
 public class WriteOnlyOperationsTests(InMemoryFixture fixture) : IClassFixture<InMemoryFixture>
 {

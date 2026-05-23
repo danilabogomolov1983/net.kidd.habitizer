@@ -1,11 +1,11 @@
 using LanguageExt;
-using AccountPost = Wst.Tools.PosiBridge.Application.Account.Post;
-using DomainPosition = Wst.Tools.PosiBridge.Domain.Position.Position;
-using InstrumentPost = Wst.Tools.PosiBridge.Application.Instrument.Post;
-using Wst.Tools.PosiBridge.Shared.Kernel.Functional;
-using IPersistenceStore = Wst.Tools.PosiBridge.Domain.Position.IPersistenceStore;
+using AccountPost = Net.Kidd.Habitizer.Application.Account.Post;
+using DomainPosition = Net.Kidd.Habitizer.Domain.Position.Position;
+using InstrumentPost = Net.Kidd.Habitizer.Application.Instrument.Post;
+using Net.Kidd.Habitizer.Shared.Kernel.Functional;
+using IPersistenceStore = Net.Kidd.Habitizer.Domain.Position.IPersistenceStore;
 
-namespace Wst.Tools.PosiBridge.Application.Position.Put;
+namespace Net.Kidd.Habitizer.Application.Position.Put;
 
 public class Service(
     IPersistenceStore persistenceStore,

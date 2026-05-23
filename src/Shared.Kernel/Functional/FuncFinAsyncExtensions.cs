@@ -1,7 +1,7 @@
 using LanguageExt;
 using LanguageExt.Common;
 
-namespace Wst.Tools.PosiBridge.Shared.Kernel.Functional;
+namespace Net.Kidd.Habitizer.Shared.Kernel.Functional;
 
 public static class FuncFinAsyncExtensions
 {

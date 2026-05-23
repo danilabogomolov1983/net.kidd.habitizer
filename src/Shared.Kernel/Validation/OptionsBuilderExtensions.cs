@@ -1,7 +1,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
-namespace Wst.Tools.PosiBridge.Shared.Kernel.Validation;
+namespace Net.Kidd.Habitizer.Shared.Kernel.Validation;
 
 public static class OptionsBuilderExtensions
 {

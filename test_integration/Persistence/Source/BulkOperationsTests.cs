@@ -1,8 +1,8 @@
-using Wst.Tools.PosiBridge.Domain.Source;
-using Wst.Tools.PosiBridge.Persistence.Source;
-using Wst.Tools.PosiBridge.TestCompanion;
+using Net.Kidd.Habitizer.Domain.Source;
+using Net.Kidd.Habitizer.Persistence.Source;
+using Net.Kidd.Habitizer.TestCompanion;
 
-namespace Wst.Tools.PosiBridge.Persistence.IntegrationTest.Source;
+namespace Net.Kidd.Habitizer.Persistence.IntegrationTest.Source;
 
 [Collection("IntegrationTests")]
 public class BulkOperationsTests(IntegrationTestsFixture fixture)

@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
-namespace Wst.Tools.PosiBridge.Persistence.DbContext;
+namespace Net.Kidd.Habitizer.Persistence.DbContext;
 
 public class PortfolioDbDesignTimeContextFactory : IDesignTimeDbContextFactory<PortfolioDbContext>
 {

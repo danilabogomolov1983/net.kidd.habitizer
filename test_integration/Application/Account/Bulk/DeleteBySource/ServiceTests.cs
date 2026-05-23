@@ -1,11 +1,11 @@
 using LanguageExt.UnsafeValueAccess;
-using Wst.Tools.PosiBridge.TestCompanion;
-using DeleteBySourceAccount = Wst.Tools.PosiBridge.Application.Account.Bulk.DeleteBySource;
-using GetBySourcesAccount = Wst.Tools.PosiBridge.Application.Account.Bulk.GetBySources;
-using SourceAddMissing = Wst.Tools.PosiBridge.Application.Source.Bulk.AddMissing;
-using AccountAddMissing = Wst.Tools.PosiBridge.Application.Account.Bulk.AddMissing;
+using Net.Kidd.Habitizer.TestCompanion;
+using DeleteBySourceAccount = Net.Kidd.Habitizer.Application.Account.Bulk.DeleteBySource;
+using GetBySourcesAccount = Net.Kidd.Habitizer.Application.Account.Bulk.GetBySources;
+using SourceAddMissing = Net.Kidd.Habitizer.Application.Source.Bulk.AddMissing;
+using AccountAddMissing = Net.Kidd.Habitizer.Application.Account.Bulk.AddMissing;
 
-namespace Wst.Tools.PosiBridge.Application.IntegrationTest.Account.Bulk.DeleteBySource;
+namespace Net.Kidd.Habitizer.Application.IntegrationTest.Account.Bulk.DeleteBySource;
 
 [Collection("IntegrationTests")]
 public class ServiceTests(IntegrationTestsFixture fixture)

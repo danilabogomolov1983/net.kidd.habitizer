@@ -1,6 +1,6 @@
 using LanguageExt;
 
-namespace Wst.Tools.PosiBridge.Application.Snapshot;
+namespace Net.Kidd.Habitizer.Application.Snapshot;
 
 public interface IPortfolioSnapshotProvider
 {

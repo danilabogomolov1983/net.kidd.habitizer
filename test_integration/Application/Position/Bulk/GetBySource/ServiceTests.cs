@@ -1,12 +1,12 @@
 using LanguageExt.UnsafeValueAccess;
-using Wst.Tools.PosiBridge.TestCompanion;
-using PositionAddMissing = Wst.Tools.PosiBridge.Application.Position.Bulk.AddMissing;
-using AccountAddMissing = Wst.Tools.PosiBridge.Application.Account.Bulk.AddMissing;
-using InstrumentAddMissing = Wst.Tools.PosiBridge.Application.Instrument.Bulk.AddMissing;
-using SourceAddMissing = Wst.Tools.PosiBridge.Application.Source.Bulk.AddMissing;
-using GetBySourcePosition = Wst.Tools.PosiBridge.Application.Position.Bulk.GetBySource;
+using Net.Kidd.Habitizer.TestCompanion;
+using PositionAddMissing = Net.Kidd.Habitizer.Application.Position.Bulk.AddMissing;
+using AccountAddMissing = Net.Kidd.Habitizer.Application.Account.Bulk.AddMissing;
+using InstrumentAddMissing = Net.Kidd.Habitizer.Application.Instrument.Bulk.AddMissing;
+using SourceAddMissing = Net.Kidd.Habitizer.Application.Source.Bulk.AddMissing;
+using GetBySourcePosition = Net.Kidd.Habitizer.Application.Position.Bulk.GetBySource;
 
-namespace Wst.Tools.PosiBridge.Application.IntegrationTest.Position.Bulk.GetBySource;
+namespace Net.Kidd.Habitizer.Application.IntegrationTest.Position.Bulk.GetBySource;
 
 [Collection("IntegrationTests")]
 public class ServiceTests(IntegrationTestsFixture fixture)

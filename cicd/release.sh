@@ -17,9 +17,9 @@ TARGET_ENV="${1}"
 VERSION="${2}"
 SCRIPT_DIR="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
 
-SYNCDAEMON_IMAGE_TAG="wst-tools-posibridge-syncdaemon:${VERSION}"
+SYNCDAEMON_IMAGE_TAG="net-kidd-habitizer-syncdaemon:${VERSION}"
 RELEASE_DIR="${SCRIPT_DIR}/release/${TARGET_ENV}"
-SYNCDAEMON_TAR_FILE="${RELEASE_DIR}/wst-tools-posibridge-syncdaemon-${VERSION}.tar"
+SYNCDAEMON_TAR_FILE="${RELEASE_DIR}/net-kidd-habitizer-syncdaemon-${VERSION}.tar"
 
 mkdir -p "${RELEASE_DIR}"
 

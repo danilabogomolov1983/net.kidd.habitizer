@@ -2,7 +2,7 @@ using LanguageExt;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace Wst.Tools.PosiBridge.Persistence.Source;
+namespace Net.Kidd.Habitizer.Persistence.Source;
 
 public class PersistenceStore(IPortfolioDbContextFactory dbContextFactory) : Domain.Source.IPersistenceStore
 {

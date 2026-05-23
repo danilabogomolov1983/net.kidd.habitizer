@@ -1,6 +1,6 @@
-using Wst.Tools.PosiBridge.Domain.ValueObjects;
+using Net.Kidd.Habitizer.Domain.ValueObjects;
 
-namespace Wst.Tools.PosiBridge.Domain.Account;
+namespace Net.Kidd.Habitizer.Domain.Account;
 
 public sealed record Account(
     AccountId Id,

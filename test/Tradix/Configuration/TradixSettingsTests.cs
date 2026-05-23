@@ -1,6 +1,6 @@
-using Wst.Tools.PosiBridge.Tradix.Configuration;
+using Net.Kidd.Habitizer.Tradix.Configuration;
 
-namespace Wst.Tools.PosiBridge.Tradix.Test.Configuration;
+namespace Net.Kidd.Habitizer.Tradix.Test.Configuration;
 
 public class TradixSettingsTests
 {

@@ -1,7 +1,7 @@
 using Microsoft.Data.Sqlite;
-using Wst.Tools.PosiBridge.Persistence;
+using Net.Kidd.Habitizer.Persistence;
 
-namespace Wst.Tools.PosiBridge.TestCompanion;
+namespace Net.Kidd.Habitizer.TestCompanion;
 
 public sealed class InMemoryFixture : IDisposable
 {

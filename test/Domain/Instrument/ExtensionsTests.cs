@@ -1,6 +1,6 @@
-using Wst.Tools.PosiBridge.Domain.Instrument;
+using Net.Kidd.Habitizer.Domain.Instrument;
 
-namespace Wst.Tools.PosiBridge.Domain.Test.Instrument;
+namespace Net.Kidd.Habitizer.Domain.Test.Instrument;
 
 public class ExtensionsTests
 {

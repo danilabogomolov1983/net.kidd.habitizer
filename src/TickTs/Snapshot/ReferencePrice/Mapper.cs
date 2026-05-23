@@ -1,6 +1,6 @@
-using Wst.Tools.PosiBridge.Shared.Kernel;
+using Net.Kidd.Habitizer.Shared.Kernel;
 
-namespace Wst.Tools.PosiBridge.TickTs.Snapshot.ReferencePrice;
+namespace Net.Kidd.Habitizer.TickTs.Snapshot.ReferencePrice;
 
 public struct Mapper : IMap<Domain.Position.ReferencePrice.ReferencePrice, Response>
 {

@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Wst.Tools.PosiBridge.Persistence.Account;
+namespace Net.Kidd.Habitizer.Persistence.Account;
 
 public class Configuration : IEntityTypeConfiguration<AccountDbo>
 {

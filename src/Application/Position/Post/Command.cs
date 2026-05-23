@@ -1,7 +1,7 @@
-using Wst.Tools.PosiBridge.Domain.Position.ReferencePrice;
-using Wst.Tools.PosiBridge.Domain.ValueObjects;
+using Net.Kidd.Habitizer.Domain.Position.ReferencePrice;
+using Net.Kidd.Habitizer.Domain.ValueObjects;
 
-namespace Wst.Tools.PosiBridge.Application.Position.Post;
+namespace Net.Kidd.Habitizer.Application.Position.Post;
 
 public sealed record Command(
     SourceName SourceName,

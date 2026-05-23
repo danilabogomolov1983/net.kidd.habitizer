@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Wst.Tools.PosiBridge.Persistence.Migrations
+namespace Net.Kidd.Habitizer.Persistence.Migrations
 {
     /// <inheritdoc />
     public partial class Initial : Migration

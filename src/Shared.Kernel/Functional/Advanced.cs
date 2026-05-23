@@ -1,4 +1,4 @@
-namespace Wst.Tools.PosiBridge.Shared.Kernel.Functional;
+namespace Net.Kidd.Habitizer.Shared.Kernel.Functional;
 
 public static class Advanced
 {

@@ -1,7 +1,7 @@
-using Wst.Tools.PosiBridge.Domain.Source;
-using Wst.Tools.PosiBridge.Domain.ValueObjects;
+using Net.Kidd.Habitizer.Domain.Source;
+using Net.Kidd.Habitizer.Domain.ValueObjects;
 
-namespace Wst.Tools.PosiBridge.Domain.Test.Source;
+namespace Net.Kidd.Habitizer.Domain.Test.Source;
 
 public class ExtensionsTests
 {

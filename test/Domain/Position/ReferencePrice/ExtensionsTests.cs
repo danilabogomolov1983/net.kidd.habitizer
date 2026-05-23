@@ -1,6 +1,6 @@
-using Wst.Tools.PosiBridge.Domain.Position.ReferencePrice;
+using Net.Kidd.Habitizer.Domain.Position.ReferencePrice;
 
-namespace Wst.Tools.PosiBridge.Domain.Test.Position.ReferencePrice;
+namespace Net.Kidd.Habitizer.Domain.Test.Position.ReferencePrice;
 
 public class ExtensionsTests
 {

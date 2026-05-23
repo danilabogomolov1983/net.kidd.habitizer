@@ -1,8 +1,8 @@
-using Wst.Tools.PosiBridge.Domain.ValueObjects;
-using Wst.Tools.PosiBridge.Shared.Kernel;
-using SourceId = Wst.Tools.PosiBridge.Domain.Source.SourceId;
+using Net.Kidd.Habitizer.Domain.ValueObjects;
+using Net.Kidd.Habitizer.Shared.Kernel;
+using SourceId = Net.Kidd.Habitizer.Domain.Source.SourceId;
 
-namespace Wst.Tools.PosiBridge.Persistence.Source;
+namespace Net.Kidd.Habitizer.Persistence.Source;
 
 public struct Mapper : IMap<Domain.Source.Source, SourceDbo>
 {

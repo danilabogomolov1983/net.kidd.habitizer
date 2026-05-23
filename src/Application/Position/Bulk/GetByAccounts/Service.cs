@@ -1,9 +1,9 @@
 using LanguageExt;
-using Wst.Tools.PosiBridge.Domain.Position;
-using Wst.Tools.PosiBridge.Shared.Kernel.Functional;
-using AccountGetByIds = Wst.Tools.PosiBridge.Application.Account.Bulk.GetByIds;
+using Net.Kidd.Habitizer.Domain.Position;
+using Net.Kidd.Habitizer.Shared.Kernel.Functional;
+using AccountGetByIds = Net.Kidd.Habitizer.Application.Account.Bulk.GetByIds;
 
-namespace Wst.Tools.PosiBridge.Application.Position.Bulk.GetByAccounts;
+namespace Net.Kidd.Habitizer.Application.Position.Bulk.GetByAccounts;
 
 public class Service(AccountGetByIds.Service getByIdsAccount, IBulkStore bulkStore)
 {

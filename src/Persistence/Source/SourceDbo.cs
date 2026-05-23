@@ -1,6 +1,6 @@
-using Wst.Tools.PosiBridge.Persistence.Account;
+using Net.Kidd.Habitizer.Persistence.Account;
 
-namespace Wst.Tools.PosiBridge.Persistence.Source;
+namespace Net.Kidd.Habitizer.Persistence.Source;
 
 public class SourceDbo
 {

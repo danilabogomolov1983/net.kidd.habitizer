@@ -1,6 +1,6 @@
 using System.Diagnostics.Contracts;
 
-namespace Wst.Tools.PosiBridge.Shared.Kernel;
+namespace Net.Kidd.Habitizer.Shared.Kernel;
 
 public interface IOnewayMap<TLeft, TRight>
 {

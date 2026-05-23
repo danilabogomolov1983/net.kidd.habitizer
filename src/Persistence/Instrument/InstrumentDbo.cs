@@ -1,4 +1,4 @@
-namespace Wst.Tools.PosiBridge.Persistence.Instrument;
+namespace Net.Kidd.Habitizer.Persistence.Instrument;
 
 public class InstrumentDbo
 {

@@ -1,7 +1,7 @@
 using System.Collections.Immutable;
-using Wst.Tools.PosiBridge.Domain.Snapshot;
+using Net.Kidd.Habitizer.Domain.Snapshot;
 
-namespace Wst.Tools.PosiBridge.Domain.Test.Snapshot;
+namespace Net.Kidd.Habitizer.Domain.Test.Snapshot;
 
 public class SnapshotExtensionsTests
 {

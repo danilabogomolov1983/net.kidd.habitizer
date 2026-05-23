@@ -1,10 +1,10 @@
-using Wst.Tools.PosiBridge.Domain.Account;
-using Wst.Tools.PosiBridge.Domain.Position.ReferencePrice;
-using Wst.Tools.PosiBridge.Domain.Source;
-using Wst.Tools.PosiBridge.Domain.ValueObjects;
-using Wst.Tools.PosiBridge.Shared.Kernel;
+using Net.Kidd.Habitizer.Domain.Account;
+using Net.Kidd.Habitizer.Domain.Position.ReferencePrice;
+using Net.Kidd.Habitizer.Domain.Source;
+using Net.Kidd.Habitizer.Domain.ValueObjects;
+using Net.Kidd.Habitizer.Shared.Kernel;
 
-namespace Wst.Tools.PosiBridge.Tradix.Snapshot.Position;
+namespace Net.Kidd.Habitizer.Tradix.Snapshot.Position;
 
 public struct Mapper : IOnewayMap<Domain.Position.Position, (Source, PositionDbo)>
 {

@@ -2010,7 +2010,7 @@
           }
         }
       },
-      "Wst.Tools.PosiBridge.Application/1.0.0": {
+      "Net.Kidd.Habitizer.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
@@ -2019,29 +2019,29 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.6",
           "Microsoft.Extensions.Logging.Abstractions": "10.0.6",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "10.0.6",
-          "Wst.Tools.PosiBridge.Domain": "1.0.0"
+          "Net.Kidd.Habitizer.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Wst.Tools.PosiBridge.Application.dll": {}
+          "bin/placeholder/Net.Kidd.Habitizer.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Wst.Tools.PosiBridge.Application.dll": {}
+          "bin/placeholder/Net.Kidd.Habitizer.Application.dll": {}
         }
       },
-      "Wst.Tools.PosiBridge.Domain/1.0.0": {
+      "Net.Kidd.Habitizer.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "Wst.Tools.PosiBridge.Shared.Kernel": "1.0.0"
+          "Net.Kidd.Habitizer.Shared.Kernel": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Wst.Tools.PosiBridge.Domain.dll": {}
+          "bin/placeholder/Net.Kidd.Habitizer.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Wst.Tools.PosiBridge.Domain.dll": {}
+          "bin/placeholder/Net.Kidd.Habitizer.Domain.dll": {}
         }
       },
-      "Wst.Tools.PosiBridge.Persistence/1.0.0": {
+      "Net.Kidd.Habitizer.Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
@@ -2051,16 +2051,16 @@
           "Microsoft.Extensions.Configuration.Abstractions": "10.0.6",
           "Microsoft.Extensions.Options": "10.0.6",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "10.0.6",
-          "Wst.Tools.PosiBridge.Domain": "1.0.0"
+          "Net.Kidd.Habitizer.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Wst.Tools.PosiBridge.Persistence.dll": {}
+          "bin/placeholder/Net.Kidd.Habitizer.Persistence.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Wst.Tools.PosiBridge.Persistence.dll": {}
+          "bin/placeholder/Net.Kidd.Habitizer.Persistence.dll": {}
         }
       },
-      "Wst.Tools.PosiBridge.Shared.Kernel/1.0.0": {
+      "Net.Kidd.Habitizer.Shared.Kernel/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
@@ -2071,10 +2071,10 @@
           "Microsoft.Extensions.Options": "10.0.6"
         },
         "compile": {
-          "bin/placeholder/Wst.Tools.PosiBridge.Shared.Kernel.dll": {}
+          "bin/placeholder/Net.Kidd.Habitizer.Shared.Kernel.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Wst.Tools.PosiBridge.Shared.Kernel.dll": {}
+          "bin/placeholder/Net.Kidd.Habitizer.Shared.Kernel.dll": {}
         }
       }
     }
@@ -4809,25 +4809,25 @@
         "xunit.v3.runner.inproc.console.nuspec"
       ]
     },
-    "Wst.Tools.PosiBridge.Application/1.0.0": {
+    "Net.Kidd.Habitizer.Application/1.0.0": {
       "type": "project",
-      "path": "../../src/Application/Wst.Tools.PosiBridge.Application.csproj",
-      "msbuildProject": "../../src/Application/Wst.Tools.PosiBridge.Application.csproj"
+      "path": "../../src/Application/Net.Kidd.Habitizer.Application.csproj",
+      "msbuildProject": "../../src/Application/Net.Kidd.Habitizer.Application.csproj"
     },
-    "Wst.Tools.PosiBridge.Domain/1.0.0": {
+    "Net.Kidd.Habitizer.Domain/1.0.0": {
       "type": "project",
-      "path": "../../src/Domain/Wst.Tools.PosiBridge.Domain.csproj",
-      "msbuildProject": "../../src/Domain/Wst.Tools.PosiBridge.Domain.csproj"
+      "path": "../../src/Domain/Net.Kidd.Habitizer.Domain.csproj",
+      "msbuildProject": "../../src/Domain/Net.Kidd.Habitizer.Domain.csproj"
     },
-    "Wst.Tools.PosiBridge.Persistence/1.0.0": {
+    "Net.Kidd.Habitizer.Persistence/1.0.0": {
       "type": "project",
-      "path": "../../src/Persistence/Wst.Tools.PosiBridge.Persistence.csproj",
-      "msbuildProject": "../../src/Persistence/Wst.Tools.PosiBridge.Persistence.csproj"
+      "path": "../../src/Persistence/Net.Kidd.Habitizer.Persistence.csproj",
+      "msbuildProject": "../../src/Persistence/Net.Kidd.Habitizer.Persistence.csproj"
     },
-    "Wst.Tools.PosiBridge.Shared.Kernel/1.0.0": {
+    "Net.Kidd.Habitizer.Shared.Kernel/1.0.0": {
       "type": "project",
-      "path": "../../src/Shared.Kernel/Wst.Tools.PosiBridge.Shared.Kernel.csproj",
-      "msbuildProject": "../../src/Shared.Kernel/Wst.Tools.PosiBridge.Shared.Kernel.csproj"
+      "path": "../../src/Shared.Kernel/Net.Kidd.Habitizer.Shared.Kernel.csproj",
+      "msbuildProject": "../../src/Shared.Kernel/Net.Kidd.Habitizer.Shared.Kernel.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4842,14 +4842,14 @@
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 10.0.6",
       "Microsoft.Extensions.Options >= 10.0.6",
       "Microsoft.NET.Test.Sdk >= 18.0.1",
+      "Net.Kidd.Habitizer.Application >= 1.0.0",
+      "Net.Kidd.Habitizer.Domain >= 1.0.0",
+      "Net.Kidd.Habitizer.Persistence >= 1.0.0",
       "Selenium.WebDriver >= 4.38.0",
       "Serilog >= 4.3.0",
       "Serilog.Extensions.Logging >= 10.0.0",
       "Serilog.Settings.Configuration >= 10.0.0",
       "Testcontainers.MsSql >= 4.10.0",
-      "Wst.Tools.PosiBridge.Application >= 1.0.0",
-      "Wst.Tools.PosiBridge.Domain >= 1.0.0",
-      "Wst.Tools.PosiBridge.Persistence >= 1.0.0",
       "coverlet.collector >= 6.0.4",
       "xunit.runner.visualstudio >= 3.1.5",
       "xunit.v3 >= 3.2.1"
@@ -4861,9 +4861,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/test/TestCompanion/Wst.Tools.PosiBridge.TestCompanion.csproj",
-      "projectName": "Wst.Tools.PosiBridge.TestCompanion",
-      "projectPath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/test/TestCompanion/Wst.Tools.PosiBridge.TestCompanion.csproj",
+      "projectUniqueName": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/test/TestCompanion/Net.Kidd.Habitizer.TestCompanion.csproj",
+      "projectName": "Net.Kidd.Habitizer.TestCompanion",
+      "projectPath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/test/TestCompanion/Net.Kidd.Habitizer.TestCompanion.csproj",
       "packagesPath": "/home/danila/.nuget/packages/",
       "outputPath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/test/TestCompanion/obj/",
       "projectStyle": "PackageReference",
@@ -4882,14 +4882,14 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Application/Wst.Tools.PosiBridge.Application.csproj": {
-              "projectPath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Application/Wst.Tools.PosiBridge.Application.csproj"
+            "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Application/Net.Kidd.Habitizer.Application.csproj": {
+              "projectPath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Application/Net.Kidd.Habitizer.Application.csproj"
             },
-            "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Domain/Wst.Tools.PosiBridge.Domain.csproj": {
-              "projectPath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Domain/Wst.Tools.PosiBridge.Domain.csproj"
+            "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Domain/Net.Kidd.Habitizer.Domain.csproj": {
+              "projectPath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Domain/Net.Kidd.Habitizer.Domain.csproj"
             },
-            "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Persistence/Wst.Tools.PosiBridge.Persistence.csproj": {
-              "projectPath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Persistence/Wst.Tools.PosiBridge.Persistence.csproj"
+            "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Persistence/Net.Kidd.Habitizer.Persistence.csproj": {
+              "projectPath": "/home/danila/RiderProjects/danilabogomolov1983/net.kidd.habitizer/src/Persistence/Net.Kidd.Habitizer.Persistence.csproj"
             }
           }
         }

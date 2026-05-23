@@ -1,11 +1,11 @@
 using FakeItEasy;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
-using Wst.Tools.PosiBridge.Persistence;
-using Wst.Tools.PosiBridge.Persistence.DbContext;
-using Wst.Tools.PosiBridge.Shared.Kernel.Functional;
+using Net.Kidd.Habitizer.Persistence;
+using Net.Kidd.Habitizer.Persistence.DbContext;
+using Net.Kidd.Habitizer.Shared.Kernel.Functional;
 
-namespace Wst.Tools.PosiBridge.TestCompanion;
+namespace Net.Kidd.Habitizer.TestCompanion;
 
 public static partial class Support
 {

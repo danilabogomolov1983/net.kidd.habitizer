@@ -1,6 +1,6 @@
-using Wst.Tools.PosiBridge.Tradix.Snapshot.Position;
+using Net.Kidd.Habitizer.Tradix.Snapshot.Position;
 
-namespace Wst.Tools.PosiBridge.Tradix.Test;
+namespace Net.Kidd.Habitizer.Tradix.Test;
 
 public static partial class Support
 {

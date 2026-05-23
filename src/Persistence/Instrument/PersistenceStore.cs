@@ -1,9 +1,9 @@
 using LanguageExt;
 using Microsoft.EntityFrameworkCore;
-using Wst.Tools.PosiBridge.Domain.ValueObjects;
+using Net.Kidd.Habitizer.Domain.ValueObjects;
 
 
-namespace Wst.Tools.PosiBridge.Persistence.Instrument;
+namespace Net.Kidd.Habitizer.Persistence.Instrument;
 
 public class PersistenceStore(IPortfolioDbContextFactory dbContextFactory) : Domain.Instrument.IPersistenceStore
 {

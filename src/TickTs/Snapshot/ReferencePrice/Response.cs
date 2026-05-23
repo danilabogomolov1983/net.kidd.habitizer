@@ -1,4 +1,4 @@
-namespace Wst.Tools.PosiBridge.TickTs.Snapshot.ReferencePrice;
+namespace Net.Kidd.Habitizer.TickTs.Snapshot.ReferencePrice;
 
 public sealed record Response(
     decimal? Price,

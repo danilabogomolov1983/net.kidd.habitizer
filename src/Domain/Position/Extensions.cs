@@ -1,7 +1,7 @@
-using Wst.Tools.PosiBridge.Domain.Account;
-using Wst.Tools.PosiBridge.Domain.Instrument;
+using Net.Kidd.Habitizer.Domain.Account;
+using Net.Kidd.Habitizer.Domain.Instrument;
 
-namespace Wst.Tools.PosiBridge.Domain.Position;
+namespace Net.Kidd.Habitizer.Domain.Position;
 
 public static class Extensions
 {

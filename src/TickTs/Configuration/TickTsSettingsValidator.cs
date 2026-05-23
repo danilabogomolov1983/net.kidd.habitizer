@@ -1,6 +1,6 @@
 using FluentValidation;
 
-namespace Wst.Tools.PosiBridge.TickTs.Configuration;
+namespace Net.Kidd.Habitizer.TickTs.Configuration;
 
 public class TickTsSettingsValidator : AbstractValidator<TickTsSettings>
 {

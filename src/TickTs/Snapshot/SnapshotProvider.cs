@@ -4,13 +4,13 @@ using Microsoft.Extensions.Options;
 using System.Collections.Immutable;
 using System.Net.Http.Json;
 using System.Text.Json;
-using Wst.Tools.PosiBridge.Application.Snapshot;
-using Wst.Tools.PosiBridge.Domain.Snapshot;
-using Wst.Tools.PosiBridge.TickTs.Configuration;
-using Wst.Tools.PosiBridge.TickTs.Http;
-using Wst.Tools.PosiBridge.Shared.Kernel.Functional;
+using Net.Kidd.Habitizer.Application.Snapshot;
+using Net.Kidd.Habitizer.Domain.Snapshot;
+using Net.Kidd.Habitizer.TickTs.Configuration;
+using Net.Kidd.Habitizer.TickTs.Http;
+using Net.Kidd.Habitizer.Shared.Kernel.Functional;
 
-namespace Wst.Tools.PosiBridge.TickTs.Snapshot;
+namespace Net.Kidd.Habitizer.TickTs.Snapshot;
 
 public sealed class SnapshotProvider(
     ITickTsHttpClient tickTsHttpClient,

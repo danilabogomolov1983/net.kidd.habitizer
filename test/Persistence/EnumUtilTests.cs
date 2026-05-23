@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 
-namespace Wst.Tools.PosiBridge.Persistence.Test;
+namespace Net.Kidd.Habitizer.Persistence.Test;
 
 public class EnumUtilTests
 {

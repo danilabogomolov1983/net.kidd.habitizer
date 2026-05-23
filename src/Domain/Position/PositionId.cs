@@ -1,4 +1,4 @@
-namespace Wst.Tools.PosiBridge.Domain.Position;
+namespace Net.Kidd.Habitizer.Domain.Position;
 
 public record PositionId(Guid Value)
 {

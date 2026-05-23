@@ -2,14 +2,14 @@ using FluentValidation;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
-using Wst.Tools.PosiBridge.Application.Snapshot;
-using Wst.Tools.PosiBridge.Domain.Snapshot;
-using Wst.Tools.PosiBridge.TickTs.Configuration;
-using Wst.Tools.PosiBridge.TickTs.Http;
-using Wst.Tools.PosiBridge.TickTs.Snapshot;
-using Wst.Tools.PosiBridge.Shared.Kernel.Validation;
+using Net.Kidd.Habitizer.Application.Snapshot;
+using Net.Kidd.Habitizer.Domain.Snapshot;
+using Net.Kidd.Habitizer.TickTs.Configuration;
+using Net.Kidd.Habitizer.TickTs.Http;
+using Net.Kidd.Habitizer.TickTs.Snapshot;
+using Net.Kidd.Habitizer.Shared.Kernel.Validation;
 
-namespace Wst.Tools.PosiBridge.TickTs;
+namespace Net.Kidd.Habitizer.TickTs;
 
 public static class ServiceCollectionExtensions
 {

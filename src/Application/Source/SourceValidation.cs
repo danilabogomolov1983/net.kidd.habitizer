@@ -1,8 +1,8 @@
 using LanguageExt;
-using Wst.Tools.PosiBridge.Shared.Kernel.Errors;
-using Wst.Tools.PosiBridge.Shared.Kernel.Functional;
+using Net.Kidd.Habitizer.Shared.Kernel.Errors;
+using Net.Kidd.Habitizer.Shared.Kernel.Functional;
 
-namespace Wst.Tools.PosiBridge.Application.Source;
+namespace Net.Kidd.Habitizer.Application.Source;
 
 public static class SourceValidation
 {

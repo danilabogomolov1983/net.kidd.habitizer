@@ -1,8 +1,8 @@
 using LanguageExt;
-using Wst.Tools.PosiBridge.Domain.Account;
-using Wst.Tools.PosiBridge.Shared.Kernel.Functional;
+using Net.Kidd.Habitizer.Domain.Account;
+using Net.Kidd.Habitizer.Shared.Kernel.Functional;
 
-namespace Wst.Tools.PosiBridge.Application.Account.Bulk.Delete;
+namespace Net.Kidd.Habitizer.Application.Account.Bulk.Delete;
 
 public class Service(GetByIds.Service getByIdsService, IBulkStore bulkStore)
 {

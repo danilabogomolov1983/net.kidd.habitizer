@@ -1,7 +1,7 @@
-using Wst.Tools.PosiBridge.Persistence.Source;
-using Wst.Tools.PosiBridge.Persistence.Position;
+using Net.Kidd.Habitizer.Persistence.Source;
+using Net.Kidd.Habitizer.Persistence.Position;
 
-namespace Wst.Tools.PosiBridge.Persistence.Account;
+namespace Net.Kidd.Habitizer.Persistence.Account;
 
 public class AccountDbo
 {

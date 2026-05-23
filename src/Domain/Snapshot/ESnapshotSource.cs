@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 
-namespace Wst.Tools.PosiBridge.Domain.Snapshot;
+namespace Net.Kidd.Habitizer.Domain.Snapshot;
 
 public enum ESnapshotSource
 {

@@ -1,10 +1,10 @@
 using Microsoft.EntityFrameworkCore;
-using Wst.Tools.PosiBridge.Persistence.Account;
-using Wst.Tools.PosiBridge.Persistence.Instrument;
-using Wst.Tools.PosiBridge.Persistence.Position;
-using Wst.Tools.PosiBridge.Persistence.Source;
+using Net.Kidd.Habitizer.Persistence.Account;
+using Net.Kidd.Habitizer.Persistence.Instrument;
+using Net.Kidd.Habitizer.Persistence.Position;
+using Net.Kidd.Habitizer.Persistence.Source;
 
-namespace Wst.Tools.PosiBridge.Persistence.DbContext;
+namespace Net.Kidd.Habitizer.Persistence.DbContext;
 
 public class PortfolioDbContext(DbContextOptions<PortfolioDbContext> options) : Microsoft.EntityFrameworkCore.DbContext(options)
 {

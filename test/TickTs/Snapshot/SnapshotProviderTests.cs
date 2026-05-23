@@ -8,11 +8,11 @@ using System.Net;
 using System.Net.Http.Json;
 using System.Text;
 using System.Text.Json;
-using Wst.Tools.PosiBridge.TickTs.Configuration;
-using Wst.Tools.PosiBridge.TickTs.Http;
-using Wst.Tools.PosiBridge.Shared.Kernel.Functional;
+using Net.Kidd.Habitizer.TickTs.Configuration;
+using Net.Kidd.Habitizer.TickTs.Http;
+using Net.Kidd.Habitizer.Shared.Kernel.Functional;
 
-namespace Wst.Tools.PosiBridge.TickTs.Test.Snapshot;
+namespace Net.Kidd.Habitizer.TickTs.Test.Snapshot;
 
 public class SnapshotProviderTests
 {

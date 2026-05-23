@@ -1,9 +1,9 @@
 using LanguageExt.UnsafeValueAccess;
-using Wst.Tools.PosiBridge.TestCompanion;
-using PostSource = Wst.Tools.PosiBridge.Application.Source.Post;
-using GetSource = Wst.Tools.PosiBridge.Application.Source.Get;
+using Net.Kidd.Habitizer.TestCompanion;
+using PostSource = Net.Kidd.Habitizer.Application.Source.Post;
+using GetSource = Net.Kidd.Habitizer.Application.Source.Get;
 
-namespace Wst.Tools.PosiBridge.Application.IntegrationTest.Source.Post;
+namespace Net.Kidd.Habitizer.Application.IntegrationTest.Source.Post;
 
 [Collection("IntegrationTests")]
 public class ServiceTests(IntegrationTestsFixture fixture)
