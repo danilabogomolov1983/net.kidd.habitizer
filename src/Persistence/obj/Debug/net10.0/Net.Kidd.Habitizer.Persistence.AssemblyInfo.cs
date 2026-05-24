@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Net.Kidd.Habitizer.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b057beb603379cc2dbe88fc9a18b690e59905639")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+572389ce7bf604e770c224474a3bab29fd932ad7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Net.Kidd.Habitizer.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Net.Kidd.Habitizer.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
