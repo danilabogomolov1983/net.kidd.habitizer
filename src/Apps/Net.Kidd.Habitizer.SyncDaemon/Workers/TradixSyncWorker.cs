@@ -2,7 +2,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Quartz;
-using Net.Kidd.Habitizer.Application.Snapshot.Configuration;
+using Net.Kidd.Habitizer.Features.Snapshot.Configuration;
 using Net.Kidd.Habitizer.Domain.Snapshot;
 using Net.Kidd.Habitizer.Shared.Kernel.Errors;
 
@@ -35,7 +35,7 @@ public sealed class TradixSyncWorker(
         });
 
         using var scope = scopeFactory.CreateScope();
-        var syncService = scope.ServiceProvider.GetRequiredService<Application.Snapshot.Sync.Service>();
+        var syncService = scope.ServiceProvider.GetRequiredService<Features.Snapshot.Sync.Service>();
         var result = await syncService.SyncAsync(ESnapshotSource.Tradix, accounts);
 
         result.Match(_ =>

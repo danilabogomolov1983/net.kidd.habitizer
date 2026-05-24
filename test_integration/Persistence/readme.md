@@ -1,4 +1,4 @@
-# PosiBridge Persistence Integration Tests
+# Habitizer Persistence Integration Tests
 
 ## Prerequisites
 
@@ -14,7 +14,7 @@ Server container via Testcontainers.
 Run from repository root:
 
 ```powershell
-dotnet test .\test_integration\Persistence\Wst.Tools.PosiBridge.Persistence.IntegrationTest.csproj
+dotnet test .\test_integration\Persistence\Wst.Tools.Habitizer.Persistence.IntegrationTest.csproj
 ```
 
 ## Start Tests (Using Local SQL Server Instead of Testcontainers)
@@ -38,7 +38,7 @@ docker compose -f .\cicd\sql\docker-compose.mssql.local.yml up -d
 3. Run tests:
 
 ```powershell
-dotnet test .\test_integration\Persistence\Wst.Tools.PosiBridge.Persistence.IntegrationTest.csproj
+dotnet test .\test_integration\Persistence\Wst.Tools.Habitizer.Persistence.IntegrationTest.csproj
 ```
 
 ## Troubleshooting

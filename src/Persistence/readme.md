@@ -1,4 +1,4 @@
-# PosiBridge Persistence: Migrations
+# Habitizer Persistence: Migrations
 
 ## Set connection string
 
@@ -22,8 +22,8 @@ Run from repository root:
 
 ```powershell
 dotnet ef migrations add Initial `
-  --project .\src\Persistence\Wst.Tools.PosiBridge.Persistence.csproj `
-  --context Wst.Tools.PosiBridge.Persistence.DbContext.PortfolioDbContext
+  --project .\src\Persistence\Wst.Tools.Habitizer.Persistence.csproj `
+  --context Wst.Tools.Habitizer.Persistence.DbContext.PortfolioDbContext
 ```
 
 Migration files are generated in `src/Persistence/Migrations`.
@@ -32,6 +32,6 @@ Migration files are generated in `src/Persistence/Migrations`.
 
 ```powershell
 dotnet ef database update `
-  --project .\src\Persistence\Wst.Tools.PosiBridge.Persistence.csproj `
-  --context Wst.Tools.PosiBridge.Persistence.DbContext.PortfolioDbContext
+  --project .\src\Persistence\Wst.Tools.Habitizer.Persistence.csproj `
+  --context Wst.Tools.Habitizer.Persistence.DbContext.PortfolioDbContext
 ```

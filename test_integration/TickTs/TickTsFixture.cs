@@ -8,7 +8,7 @@ using System.Net;
 using System.Net.Http.Json;
 using System.Text;
 using System.Text.Json;
-using Net.Kidd.Habitizer.Application.Snapshot;
+using Net.Kidd.Habitizer.Features.Snapshot;
 using Net.Kidd.Habitizer.Domain.Account;
 using Net.Kidd.Habitizer.Domain.Snapshot;
 using Net.Kidd.Habitizer.TickTs.Http;

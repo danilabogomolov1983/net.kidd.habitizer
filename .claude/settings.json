@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs sed -i 's/Net\\\\.Kidd\\\\.Habitizer\\\\.Application/Net.Kidd.Habitizer.Features/g')"
+    ]
+  }
+}

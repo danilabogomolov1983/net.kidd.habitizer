@@ -8,13 +8,13 @@ public static class Support
 {
     public static class Domain
     {
-        public static PosiBridge.Domain.Snapshot.Snapshot NewSnapshot(ESnapshotSource snapshotSource, PosiBridge.Domain.Account.Account account, int positionsCount)
+        public static Habitizer.Domain.Snapshot.Snapshot NewSnapshot(ESnapshotSource snapshotSource, Habitizer.Domain.Account.Account account, int positionsCount)
         {
             var positions = Enumerable.Range(0, positionsCount)
                 .Select(_ => Position.Support.Domain.NewPosition().WithAccount(account))
                 .ToImmutableList();
 
-            return new PosiBridge.Domain.Snapshot.Snapshot(snapshotSource, positions);
+            return new Habitizer.Domain.Snapshot.Snapshot(snapshotSource, positions);
         }
 
     }

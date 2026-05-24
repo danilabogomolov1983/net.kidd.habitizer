@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
-using Net.Kidd.Habitizer.Application.Snapshot;
+using Net.Kidd.Habitizer.Features.Snapshot;
 using Net.Kidd.Habitizer.Domain.Snapshot;
 using Net.Kidd.Habitizer.Tradix.Configuration;
 using Net.Kidd.Habitizer.Tradix.Snapshot;

@@ -2,7 +2,7 @@ using LanguageExt;
 using LanguageExt.Common;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Immutable;
-using Net.Kidd.Habitizer.Application.Snapshot;
+using Net.Kidd.Habitizer.Features.Snapshot;
 using Net.Kidd.Habitizer.Domain.Position;
 using Net.Kidd.Habitizer.Domain.Snapshot;
 using Net.Kidd.Habitizer.Domain.Source;

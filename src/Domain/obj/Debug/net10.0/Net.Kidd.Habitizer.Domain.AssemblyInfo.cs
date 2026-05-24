@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Net.Kidd.Habitizer.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+572389ce7bf604e770c224474a3bab29fd932ad7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1c3fea83e28be76c407ee891caea0e877d3cb52")]
 [assembly: System.Reflection.AssemblyProductAttribute("Net.Kidd.Habitizer.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Net.Kidd.Habitizer.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

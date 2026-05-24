@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
-    <ProjectReference Include="..\Application\Net.Kidd.Habitizer.Application.csproj" />
+    <ProjectReference Include="..\Features\Net.Kidd.Habitizer.Features.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FluentValidation" />

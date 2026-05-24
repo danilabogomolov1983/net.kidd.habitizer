@@ -17,7 +17,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Application\Net.Kidd.Habitizer.Application.csproj"/>
+        <ProjectReference Include="..\..\src\Features\Net.Kidd.Habitizer.Features.csproj"/>
         <ProjectReference Include="..\..\src\TickTs\Net.Kidd.Habitizer.TickTs.csproj"/>
         <ProjectReference Include="..\TestCompanion\Net.Kidd.Habitizer.TestCompanion.csproj" />
     </ItemGroup>

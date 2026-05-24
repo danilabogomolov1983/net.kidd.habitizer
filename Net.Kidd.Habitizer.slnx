@@ -6,7 +6,7 @@
     <File Path="Directory.Packages.props" />
   </Folder>
   <Folder Name="/src/">
-    <Project Path="src/Application/Net.Kidd.Habitizer.Application.csproj" />
+    <Project Path="src/Features/Net.Kidd.Habitizer.Features.csproj" />
     <Project Path="src/Domain/Net.Kidd.Habitizer.Domain.csproj" />
     <Project Path="src/Shared.Kernel/Net.Kidd.Habitizer.Shared.Kernel.csproj" />
     <Project Path="src/TickTs/Net.Kidd.Habitizer.TickTs.csproj" />
@@ -18,7 +18,7 @@
   </Folder>
   <Folder Name="/test/">
     <Project Path="test/Api/Net.Kidd.Habitizer.Api.Test.csproj" />
-    <Project Path="test/Application/Net.Kidd.Habitizer.Application.Test.csproj" />
+    <Project Path="test/Features/Net.Kidd.Habitizer.Features.Test.csproj" />
     <Project Path="test/Domain/Net.Kidd.Habitizer.Domain.Test.csproj" />
     <Project Path="test/TickTs/Net.Kidd.Habitizer.TickTs.Test.csproj" />
     <Project Path="test/Tradix/Net.Kidd.Habitizer.Tradix.Test.csproj" />
@@ -29,7 +29,7 @@
     <File Path="test/readme.md" />
   </Folder>
   <Folder Name="/test_integration/">
-    <Project Path="test_integration/Application/Net.Kidd.Habitizer.Application.IntegrationTest.csproj" />
+    <Project Path="test_integration/Features/Net.Kidd.Habitizer.Features.IntegrationTest.csproj" />
     <Project Path="test_integration/Persistence/Net.Kidd.Habitizer.Persistence.IntegrationTest.csproj" />
     <Project Path="test_integration/TestCompanion/Net.Kidd.Habitizer.TestCompanion.csproj" />
     <Project Path="test_integration/TickTs/Net.Kidd.Habitizer.TickTs.IntegrationTest.csproj" />

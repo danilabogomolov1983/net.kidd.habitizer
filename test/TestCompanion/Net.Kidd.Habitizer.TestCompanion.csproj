@@ -31,7 +31,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Application\Net.Kidd.Habitizer.Application.csproj" />
+        <ProjectReference Include="..\..\src\Features\Net.Kidd.Habitizer.Features.csproj" />
         <ProjectReference Include="..\..\src\Domain\Net.Kidd.Habitizer.Domain.csproj" />
         <ProjectReference Include="..\..\src\Persistence\Net.Kidd.Habitizer.Persistence.csproj" />
     </ItemGroup>

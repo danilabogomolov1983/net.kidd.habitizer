@@ -1,4 +1,4 @@
-# PosiBridge TickTs Integration Tests
+# Habitizer TickTs Integration Tests
 
 
 ## Start Tests (Default: Fake TickTs Client)
@@ -12,7 +12,7 @@ or network access.
 Run from repository root:
 
 ```powershell
-dotnet test .\test_integration\TickTs\Wst.Tools.PosiBridge.TickTs.IntegrationTest.csproj
+dotnet test .\test_integration\TickTs\Wst.Tools.Habitizer.TickTs.IntegrationTest.csproj
 ```
 
 ## Start Tests (Using Real Tick-TS Instead Of The Fake Client)
@@ -32,7 +32,7 @@ dotnet test .\test_integration\TickTs\Wst.Tools.PosiBridge.TickTs.IntegrationTes
 2. Run tests:
 
 ```powershell
-dotnet test .\test_integration\TickTs\Wst.Tools.PosiBridge.TickTs.IntegrationTest.csproj
+dotnet test .\test_integration\TickTs\Wst.Tools.Habitizer.TickTs.IntegrationTest.csproj
 ```
 
 ## Troubleshooting

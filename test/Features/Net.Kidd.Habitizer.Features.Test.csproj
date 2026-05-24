@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FakeItEasy" />
+        <PackageReference Include="Microsoft.Extensions.TimeProvider.Testing" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk"/>
+        <PackageReference Include="xunit.runner.visualstudio"/>
+        <PackageReference Include="xunit.v3"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Using Include="Xunit"/>
+        <Using Include="Net.Kidd.Habitizer.TestCompanion.Support" Static="True" />
+        <Using Include="Net.Kidd.Habitizer.TestCompanion.Support.Domain" Static="True" />
+        <Using Include="Net.Kidd.Habitizer.TestCompanion.Account.Support.Domain" Static="True" />
+        <Using Include="Net.Kidd.Habitizer.TestCompanion.Instrument.Support.Domain" Static="True" />
+        <Using Include="Net.Kidd.Habitizer.TestCompanion.Position.Support.Domain" Static="True" />
+        <Using Include="Net.Kidd.Habitizer.TestCompanion.Position.ReferencePrice.Support.Domain" Static="True" />
+        <Using Include="Net.Kidd.Habitizer.TestCompanion.Snapshot.Support.Domain" Static="True" />
+        <Using Include="Net.Kidd.Habitizer.TestCompanion.Source.Support.Domain" Static="True" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\src\Features\Net.Kidd.Habitizer.Features.csproj"/>
+        <ProjectReference Include="..\..\src\Domain\Net.Kidd.Habitizer.Domain.csproj"/>
+        <ProjectReference Include="..\TestCompanion\Net.Kidd.Habitizer.TestCompanion.csproj"/>
+    </ItemGroup>
+</Project>
+

@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Serilog;
 using Testcontainers.MsSql;
-using Net.Kidd.Habitizer.Application;
+using Net.Kidd.Habitizer.Features;
 using Net.Kidd.Habitizer.Persistence;
 using Net.Kidd.Habitizer.TickTs;
 using Net.Kidd.Habitizer.Tradix;

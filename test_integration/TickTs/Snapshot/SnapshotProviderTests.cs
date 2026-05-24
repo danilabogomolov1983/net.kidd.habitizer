@@ -1,5 +1,5 @@
     using LanguageExt.UnsafeValueAccess;
-using Net.Kidd.Habitizer.Application.Snapshot;
+using Net.Kidd.Habitizer.Features.Snapshot;
 using Net.Kidd.Habitizer.Domain.Account;
 
 namespace Net.Kidd.Habitizer.TickTs.IntegrationTest.Snapshot;

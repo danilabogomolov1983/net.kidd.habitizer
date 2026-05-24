@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Serilog;
 using Testcontainers.MsSql;
-using Net.Kidd.Habitizer.Application.Snapshot;
+using Net.Kidd.Habitizer.Features.Snapshot;
 using Net.Kidd.Habitizer.Domain.Snapshot;
 using Net.Kidd.Habitizer.Tradix.Configuration;
 using Net.Kidd.Habitizer.Tradix.Snapshot;
