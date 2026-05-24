@@ -443,3 +443,4 @@ _publish_check
 
 
 *.bkp
+obj/
