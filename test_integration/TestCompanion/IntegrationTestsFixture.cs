@@ -5,8 +5,6 @@ using Serilog;
 using Testcontainers.MsSql;
 using Net.Kidd.Habitizer.Features;
 using Net.Kidd.Habitizer.Persistence;
-using Net.Kidd.Habitizer.TickTs;
-using Net.Kidd.Habitizer.Tradix;
 
 namespace Net.Kidd.Habitizer.TestCompanion;
 
@@ -99,8 +97,6 @@ public sealed class IntegrationTestsFixture : IAsyncLifetime
         services.AddOptions();
 
 
-        services.AddTradix(configuration);
-        services.AddTickTs(configuration);
         services.AddPersistence(configuration);
         services.AddApplication(configuration);
 

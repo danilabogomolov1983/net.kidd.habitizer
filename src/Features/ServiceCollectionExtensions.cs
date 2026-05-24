@@ -26,9 +26,6 @@ using PositionGet = Net.Kidd.Habitizer.Features.Position.Get;
 using PositionGetList = Net.Kidd.Habitizer.Features.Position.GetList;
 using PositionPost = Net.Kidd.Habitizer.Features.Position.Post;
 using PositionPut = Net.Kidd.Habitizer.Features.Position.Put;
-using SnapshotMerge = Net.Kidd.Habitizer.Features.Snapshot.Merge;
-using SnapshotSave = Net.Kidd.Habitizer.Features.Snapshot.Save;
-using SnapshotSync = Net.Kidd.Habitizer.Features.Snapshot.Sync;
 using SourceBulkAddMissing = Net.Kidd.Habitizer.Features.Source.Bulk.AddMissing;
 using SourceBulkDeleteByNames = Net.Kidd.Habitizer.Features.Source.Bulk.DeleteByNames;
 using SourceBulkGetByNames = Net.Kidd.Habitizer.Features.Source.Bulk.GetByNames;
@@ -42,12 +39,6 @@ public static class ServiceCollectionExtensions
 {
     public static void AddApplication(this IServiceCollection services, IConfiguration configuration)
     {
-        services.AddScoped<IValidator<Snapshot.Configuration.SyncSettings>, Snapshot.Configuration.SyncSettingsValidator>();
-        services.AddOptions<Snapshot.Configuration.SyncSettings>()
-            .Bind(configuration.GetSection(Snapshot.Configuration.SyncSettings.ConfigurationSection))
-            .ValidateFluentValidation()
-            .ValidateOnStart();
-
         services.AddScoped<SourcePost.Service>();
         services.AddScoped<SourceBulkAddMissing.Service>();
         services.AddScoped<SourceBulkGetByNames.Service>();
@@ -81,11 +72,6 @@ public static class ServiceCollectionExtensions
         services.AddScoped<PositionGet.Service>();
         services.AddScoped<PositionGetList.Service>();
 
-        services.AddScoped<Snapshot.PortfolioSnapshotProviderFactory>();
-        services.AddScoped<SnapshotMerge.Service>();
-        services.AddScoped<SnapshotSave.Service>();
-        services.AddScoped<SnapshotSync.Service>();
-        
         services.AddSingleton(TimeProvider.System);
     }
 }

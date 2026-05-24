@@ -8,9 +8,7 @@
         <PackageReference Include="Microsoft.Extensions.Configuration.Json" />
         <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
         <PackageReference Include="Microsoft.Extensions.Hosting" />
-        <PackageReference Include="Quartz.Extensions.DependencyInjection" />
-        <PackageReference Include="Quartz.Extensions.Hosting" />
-        <PackageReference Include="Serilog" />
+<PackageReference Include="Serilog" />
         <PackageReference Include="Serilog.Extensions.Hosting" />
         <PackageReference Include="Serilog.Extensions.Logging" />
         <PackageReference Include="Serilog.Settings.Configuration" />
@@ -21,8 +19,6 @@
     <ItemGroup>
         <ProjectReference Include="..\..\Features\Net.Kidd.Habitizer.Features.csproj" />
         <ProjectReference Include="..\..\Persistence\Net.Kidd.Habitizer.Persistence.csproj" />
-        <ProjectReference Include="..\..\TickTs\Net.Kidd.Habitizer.TickTs.csproj" />
-        <ProjectReference Include="..\..\Tradix\Net.Kidd.Habitizer.Tradix.csproj" />
     </ItemGroup>
 
     <ItemGroup>

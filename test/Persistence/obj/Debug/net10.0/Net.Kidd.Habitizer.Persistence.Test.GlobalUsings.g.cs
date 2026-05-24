@@ -11,7 +11,6 @@ global using static Net.Kidd.Habitizer.TestCompanion.Account.Support.Domain;
 global using static Net.Kidd.Habitizer.TestCompanion.Instrument.Support.Domain;
 global using static Net.Kidd.Habitizer.TestCompanion.Position.ReferencePrice.Support.Domain;
 global using static Net.Kidd.Habitizer.TestCompanion.Position.Support.Domain;
-global using static Net.Kidd.Habitizer.TestCompanion.Snapshot.Support.Domain;
 global using static Net.Kidd.Habitizer.TestCompanion.Source.Support.Domain;
 global using static Net.Kidd.Habitizer.TestCompanion.Support;
 global using static Net.Kidd.Habitizer.TestCompanion.Support.Domain;

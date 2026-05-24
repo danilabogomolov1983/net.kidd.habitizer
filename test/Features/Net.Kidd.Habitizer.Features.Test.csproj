@@ -19,8 +19,7 @@
         <Using Include="Net.Kidd.Habitizer.TestCompanion.Instrument.Support.Domain" Static="True" />
         <Using Include="Net.Kidd.Habitizer.TestCompanion.Position.Support.Domain" Static="True" />
         <Using Include="Net.Kidd.Habitizer.TestCompanion.Position.ReferencePrice.Support.Domain" Static="True" />
-        <Using Include="Net.Kidd.Habitizer.TestCompanion.Snapshot.Support.Domain" Static="True" />
-        <Using Include="Net.Kidd.Habitizer.TestCompanion.Source.Support.Domain" Static="True" />
+<Using Include="Net.Kidd.Habitizer.TestCompanion.Source.Support.Domain" Static="True" />
     </ItemGroup>
 
     <ItemGroup>

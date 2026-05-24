@@ -35,7 +35,5 @@
         <ProjectReference Include="..\..\src\Features\Net.Kidd.Habitizer.Features.csproj" />
         <ProjectReference Include="..\..\src\Domain\Net.Kidd.Habitizer.Domain.csproj" />
         <ProjectReference Include="..\..\src\Persistence\Net.Kidd.Habitizer.Persistence.csproj" />
-        <ProjectReference Include="..\..\src\TickTs\Net.Kidd.Habitizer.TickTs.csproj" />
-        <ProjectReference Include="..\..\src\Tradix\Net.Kidd.Habitizer.Tradix.csproj" />
     </ItemGroup>
 </Project>

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Net.Kidd.Habitizer.TickTs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1c3fea83e28be76c407ee891caea0e877d3cb52")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab0c2c67f47e04e17e9bc030a92c515fb77de713")]
 [assembly: System.Reflection.AssemblyProductAttribute("Net.Kidd.Habitizer.TickTs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Net.Kidd.Habitizer.TickTs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2,13 +2,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Quartz;
 using Serilog;
 using Net.Kidd.Habitizer.Features;
 using Net.Kidd.Habitizer.Persistence;
-using Net.Kidd.Habitizer.TickTs;
-using Net.Kidd.Habitizer.Tradix;
-using Net.Kidd.Habitizer.SyncDaemon.Workers;
 
 var environmentName = Environment.GetEnvironmentVariable("DOTNET_ENVIRONMENT");
 var bootstrapConfig = new ConfigurationBuilder()
@@ -37,48 +33,11 @@ try
         })
         .ConfigureServices((context, services) =>
         {
-            var tradixJobKey = new JobKey(nameof(TradixSyncWorker));
-            var tickTsJobKey = new JobKey(nameof(TickTsSyncWorker));
-
             Log.Information("[Module:SyncDaemon.Bootstrap][Step:RegisterModule] Registering Application module");
             services.AddApplication(context.Configuration);
-            
+
             Log.Information("[Module:SyncDaemon.Bootstrap][Step:RegisterModule] Registering Persistence module");
             services.AddPersistence(context.Configuration);
-            
-            Log.Information("[Module:SyncDaemon.Bootstrap][Step:RegisterModule] Registering Tradix module");
-            services.AddTradix(context.Configuration);
-            
-            Log.Information("[Module:SyncDaemon.Bootstrap][Step:RegisterModule] Registering TickTs module");
-            services.AddTickTs(context.Configuration);
-            
-            Log.Information("[Module:SyncDaemon.Bootstrap][Step:RegisterScheduler] Registering Quartz jobs");
-            services.AddQuartz(q =>
-            {
-                q.AddJob<TradixSyncWorker>(options => options.WithIdentity(tradixJobKey));
-                q.AddTrigger(options => options
-                    .WithIdentity($"{nameof(TradixSyncWorker)}StartupTrigger")
-                    .ForJob(tradixJobKey)
-                    .StartNow());
-                q.AddTrigger(options => options
-                    .WithIdentity($"{nameof(TradixSyncWorker)}Trigger")
-                    .ForJob(tradixJobKey)
-                    .WithCronSchedule("0 5/10 * * * ?"));
-
-                q.AddJob<TickTsSyncWorker>(options => options.WithIdentity(tickTsJobKey));
-                q.AddTrigger(options => options
-                    .WithIdentity($"{nameof(TickTsSyncWorker)}StartupTrigger")
-                    .ForJob(tickTsJobKey)
-                    .StartNow());
-                q.AddTrigger(options => options
-                    .WithIdentity($"{nameof(TickTsSyncWorker)}Trigger")
-                    .ForJob(tickTsJobKey)
-                    .WithCronSchedule("0 5/10 * * * ?"));
-            });
-            services.AddQuartzHostedService(options =>
-            {
-                options.WaitForJobsToComplete = true;
-            });
         })
         .Build();
 
